@@ -1,1 +1,9 @@
-
+Supplier_ID,Supplier_Name,Orders_Total,Orders_On_Time,Late_Deliveries,Defect_Count,Units_Received,Avg_Lead_Time_Days,Contract_Active,Risk_Level,Supplier_Region,Supplier_Category
+S001,ABC Supplies,120,110,10,3,500,6,Yes,Low,West,IT
+S002,Delta Office,80,74,6,2,400,5,Yes,Low,South,Office Supplies
+S003,Prime Logistics,95,70,25,4,300,12,Yes,High,East,Logistics
+S004,FastClean Services,60,56,4,1,250,4,Yes,Low,North,Facilities
+S005,NextGen Components,75,67,8,5,280,9,Yes,Medium,West,Manufacturing
+S006,OfficePro,55,50,5,1,220,7,Yes,Low,South,Office Supplies
+S007,SecureNet,40,30,10,3,150,11,No,High,West,IT
+S008,GreenSource,65,59,6,2,260,8,Yes,Medium,North,Facilities
