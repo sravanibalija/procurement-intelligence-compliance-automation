@@ -29,3 +29,15 @@ To build a scalable analytics workflow that combines procurement spend analysis,
 
 ## Status
 Project setup in progress.
+
+## Planned Outputs
+- Procurement KPI summary
+- Supplier performance scorecard
+- Compliance exception report
+- Dashboard screenshots for executive and operational reporting
+
+## Sample Insights
+- A small number of suppliers account for a high share of total procurement spend.
+- Some transactions are flagged for missing purchase orders or non-compliant contract status.
+- High-risk suppliers with high spend may require additional review.
+- Delayed invoice processing can affect reporting quality and operational efficiency.
