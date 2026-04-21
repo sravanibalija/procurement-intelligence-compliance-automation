@@ -1,0 +1,199 @@
+Purchase_ID,Invoice_ID,Invoice_Date,Supplier_ID,Supplier_Name,Category,Subcategory,Department,Region,Amount,Payment_Status,Contract_Compliance,PO_Status,Invoice_Processing_Days,Buyer_Name,Cost_Center,Risk_Level,Contract_Active,Compliance_Flag,Missing_PO_Flag,Delayed_Invoice_Flag,Risk_Flag,Inactive_Contract_Flag
+P1007,INV1007,2024-04-08,S030,DataSphere Tech,IT,Software,Engineering,North,12821.24,Pending,Yes,Available,21,Priya,CC102,High,Yes,OK,OK,OK,Flag,OK
+P1008,INV1008,2024-03-03,S015,RapidRoute Shipping,Logistics,Shipping,Facilities,Midwest,32337.22,Pending,No,Available,20,Priya,CC104,High,Yes,Flag,OK,OK,Flag,OK
+P1009,INV1009,2024-05-16,S008,GreenSource,Facilities,Safety Supplies,Finance,East,9143.99,Pending,Yes,Available,37,John,CC103,Medium,Yes,OK,OK,Flag,OK,OK
+P1010,INV1010,2024-08-07,S015,RapidRoute Shipping,Logistics,Express Delivery,Operations,East,5193.54,Paid,No,Available,4,Priya,CC115,High,Yes,Flag,OK,OK,OK,OK
+P1012,INV1012,2024-03-27,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,Operations,South,2198.37,Overdue,Yes,Available,36,John,CC105,Low,Yes,OK,OK,Flag,OK,OK
+P1017,INV1017,2024-08-11,S003,Prime Logistics,Logistics,Freight,Engineering,West,31149.77,Paid,No,Available,12,Priya,CC113,High,No,Flag,OK,OK,Flag,Flag
+P1022,INV1022,2024-06-18,S015,RapidRoute Shipping,Logistics,Freight,HR,North,27996.72,Paid,Yes,Missing,9,Ana,CC103,High,Yes,OK,Flag,OK,Flag,OK
+P1023,INV1023,2024-07-02,S003,Prime Logistics,Logistics,Ocean Freight,Operations,West,23723.89,Paid,No,Available,10,John,CC105,High,No,Flag,OK,OK,Flag,Flag
+P1025,INV1025,2024-01-01,S025,SafeGrid Security,IT,Servers,Engineering,East,3896.9,Pending,Yes,Available,32,Priya,CC111,Medium,Yes,OK,OK,Flag,OK,OK
+P1032,INV1032,2024-02-21,S022,OmniTech Devices,IT,Software,Procurement,West,3569.91,Overdue,Yes,Available,37,David,CC104,Low,Yes,OK,OK,Flag,OK,OK
+P1035,INV1035,2024-01-12,S003,Prime Logistics,Logistics,Warehousing,HR,South,23501.58,Paid,Yes,Available,9,Mark,CC111,High,No,OK,OK,OK,Flag,Flag
+P1038,INV1038,2024-01-26,S030,DataSphere Tech,IT,Servers,Procurement,Northeast,27398.97,Pending,No,Available,29,Ana,CC102,High,Yes,Flag,OK,OK,Flag,OK
+P1040,INV1040,2024-04-04,S025,SafeGrid Security,IT,Laptops,Operations,Midwest,11772.35,Paid,No,Available,5,Leo,CC111,Medium,Yes,Flag,OK,OK,OK,OK
+P1041,INV1041,2024-08-20,S002,Delta Office,Office Supplies,Stationery,Supply Chain,East,5129.25,Pending,Yes,Available,39,Emily,CC106,Low,Yes,OK,OK,Flag,OK,OK
+P1044,INV1044,2024-09-06,S024,Titan Fabrication,Manufacturing,Maintenance Kits,Procurement,Northeast,30196.71,Overdue,No,Available,52,Ravi,CC106,High,No,Flag,OK,Flag,Flag,Flag
+P1048,INV1048,2024-08-29,S030,DataSphere Tech,IT,Accessories,Facilities,West,21017.02,Paid,Yes,Available,16,Ana,CC101,High,Yes,OK,OK,OK,Flag,OK
+P1054,INV1054,2024-03-30,S005,NextGen Components,Manufacturing,Maintenance Kits,Procurement,North,5875.16,Paid,No,Available,17,John,CC107,Medium,Yes,Flag,OK,OK,OK,OK
+P1055,INV1055,2024-06-02,S017,PureSpace Cleaning,Facilities,Utilities,HR,East,958.79,Overdue,Yes,Available,42,Leo,CC103,Low,Yes,OK,OK,Flag,OK,OK
+P1056,INV1056,2024-08-15,S024,Titan Fabrication,Manufacturing,Consumables,Operations,East,5876.93,Paid,Yes,Available,12,Leo,CC108,High,No,OK,OK,OK,OK,Flag
+P1058,INV1058,2024-06-08,S010,BlueWave Freight,Logistics,Warehousing,Finance,North,8535.67,Pending,Yes,Available,32,Ravi,CC102,High,Yes,OK,OK,Flag,OK,OK
+P1059,INV1059,2024-08-26,S030,DataSphere Tech,IT,Software,Admin,West,18393.42,Overdue,No,Available,43,Mark,CC112,High,Yes,Flag,OK,Flag,Flag,OK
+P1061,INV1061,2024-02-12,S021,Velocity Cargo,Logistics,Express Delivery,Operations,South,26040.86,Paid,Yes,Available,7,Ravi,CC107,High,Yes,OK,OK,OK,Flag,OK
+P1064,INV1064,2024-02-12,S019,ForgeLine Parts,Manufacturing,Machine Parts,HR,North,15179.36,Paid,Yes,Missing,20,Mark,CC104,High,Yes,OK,Flag,OK,Flag,OK
+P1066,INV1066,2024-03-22,S030,DataSphere Tech,IT,Networking,Operations,Midwest,20438.23,Pending,No,Available,37,Mark,CC104,High,Yes,Flag,OK,Flag,Flag,OK
+P1068,INV1068,2024-11-13,S007,SecureNet,IT,Networking,Operations,Midwest,22509.17,Paid,No,Available,11,Sara,CC104,High,Yes,Flag,OK,OK,Flag,OK
+P1069,INV1069,2024-12-30,S015,RapidRoute Shipping,Logistics,Last Mile,Engineering,West,1300.94,Pending,No,Available,24,David,CC109,High,Yes,Flag,OK,OK,OK,OK
+P1073,INV1073,2024-03-14,S030,DataSphere Tech,IT,Cloud Services,Procurement,Midwest,20317.04,Pending,No,Available,31,David,CC111,High,Yes,Flag,OK,Flag,Flag,OK
+P1074,INV1074,2024-12-27,S001,ABC Supplies,IT,Cloud Services,Facilities,Northeast,18421.06,Pending,No,Available,18,Leo,CC106,Low,Yes,Flag,OK,OK,OK,OK
+P1076,INV1076,2024-09-08,S010,BlueWave Freight,Logistics,Last Mile,Procurement,Midwest,10209.41,Paid,No,Missing,10,Emily,CC101,High,Yes,Flag,Flag,OK,Flag,OK
+P1077,INV1077,2024-08-02,S015,RapidRoute Shipping,Logistics,Warehousing,Finance,West,13976.96,Paid,No,Available,7,Priya,CC103,High,Yes,Flag,OK,OK,Flag,OK
+P1080,INV1080,2024-02-07,S030,DataSphere Tech,IT,Cloud Services,Procurement,Northeast,26882.51,Paid,Yes,Available,18,Sara,CC109,High,Yes,OK,OK,OK,Flag,OK
+P1086,INV1086,2024-03-14,S019,ForgeLine Parts,Manufacturing,Machine Parts,Supply Chain,West,27442.1,Paid,No,Available,15,Sara,CC111,High,Yes,Flag,OK,OK,Flag,OK
+P1089,INV1089,2024-07-19,S027,Peak Freight,Logistics,Ocean Freight,Procurement,Northeast,7928.27,Paid,No,Available,12,Mark,CC114,Medium,Yes,Flag,OK,OK,OK,OK
+P1095,INV1095,2024-05-05,S005,NextGen Components,Manufacturing,Tools,Admin,South,11137.26,Paid,No,Available,12,John,CC111,Medium,Yes,Flag,OK,OK,OK,OK
+P1097,INV1097,2024-07-21,S024,Titan Fabrication,Manufacturing,Tools,Technology,West,33488.85,Paid,No,Available,9,Ana,CC115,High,No,Flag,OK,OK,Flag,Flag
+P1098,INV1098,2024-04-10,S007,SecureNet,IT,Networking,Supply Chain,Northeast,13498.3,Paid,No,Available,3,Mark,CC103,High,Yes,Flag,OK,OK,Flag,OK
+P1101,INV1101,2024-11-14,S030,DataSphere Tech,IT,Security,Operations,South,4248.48,Pending,No,Available,34,Sara,CC113,High,Yes,Flag,OK,Flag,OK,OK
+P1102,INV1102,2024-06-10,S015,RapidRoute Shipping,Logistics,Last Mile,Supply Chain,Midwest,23031.74,Paid,Yes,Available,17,Nina,CC112,High,Yes,OK,OK,OK,Flag,OK
+P1104,INV1104,2024-12-09,S007,SecureNet,IT,Security,Supply Chain,South,12259.49,Overdue,No,Missing,33,Priya,CC115,High,Yes,Flag,Flag,Flag,Flag,OK
+P1105,INV1105,2024-05-31,S016,CloudAxis Software,IT,Servers,Supply Chain,North,19365.52,Paid,No,Available,4,John,CC105,Medium,Yes,Flag,OK,OK,OK,OK
+P1107,INV1107,2024-06-02,S016,CloudAxis Software,IT,Networking,Procurement,Northeast,24272.72,Paid,Yes,Missing,14,Emily,CC113,Medium,Yes,OK,Flag,OK,OK,OK
+P1112,INV1112,2024-01-13,S005,NextGen Components,Manufacturing,Packaging,Supply Chain,Northeast,20905.74,Pending,No,Available,25,Nina,CC110,Medium,Yes,Flag,OK,OK,OK,OK
+P1118,INV1118,2024-12-03,S024,Titan Fabrication,Manufacturing,Consumables,Procurement,North,12661.18,Pending,Yes,Missing,24,Leo,CC114,High,No,OK,Flag,OK,Flag,Flag
+P1119,INV1119,2024-06-07,S013,Metro Furnishings,Office Supplies,Breakroom Supplies,Operations,West,2994.78,Overdue,No,Available,37,David,CC111,Low,Yes,Flag,OK,Flag,OK,OK
+P1123,INV1123,2024-09-17,S029,FacilityOne Services,Facilities,Utilities,Supply Chain,Midwest,13525.55,Paid,Yes,Missing,12,David,CC105,Medium,Yes,OK,Flag,OK,OK,OK
+P1125,INV1125,2024-11-12,S016,CloudAxis Software,IT,Networking,Facilities,South,7897.98,Paid,No,Available,4,Priya,CC112,Medium,Yes,Flag,OK,OK,OK,OK
+P1126,INV1126,2024-06-14,S005,NextGen Components,Manufacturing,Maintenance Kits,Operations,East,15529.17,Pending,No,Available,11,Ravi,CC104,Medium,Yes,Flag,OK,OK,OK,OK
+P1127,INV1127,2024-06-20,S003,Prime Logistics,Logistics,Warehousing,Supply Chain,Northeast,18418.67,Pending,No,Available,23,David,CC112,High,No,Flag,OK,OK,Flag,Flag
+P1131,INV1131,2024-05-02,S019,ForgeLine Parts,Manufacturing,Packaging,Operations,West,38301.39,Paid,Yes,Missing,4,Sara,CC106,High,Yes,OK,Flag,OK,Flag,OK
+P1133,INV1133,2024-11-08,S010,BlueWave Freight,Logistics,Last Mile,Operations,Northeast,28642.94,Pending,No,Available,9,Emily,CC114,High,Yes,Flag,OK,OK,Flag,OK
+P1134,INV1134,2024-08-20,S010,BlueWave Freight,Logistics,Freight,Admin,Midwest,18825.73,Paid,Yes,Available,3,Ana,CC115,High,Yes,OK,OK,OK,Flag,OK
+P1135,INV1135,2024-01-28,S015,RapidRoute Shipping,Logistics,Warehousing,Facilities,Northeast,11063.91,Paid,No,Missing,18,Sara,CC102,High,Yes,Flag,Flag,OK,Flag,OK
+P1139,INV1139,2024-10-22,S005,NextGen Components,Manufacturing,Machine Parts,Admin,West,37471.61,Paid,Yes,Missing,13,Sara,CC112,Medium,Yes,OK,Flag,OK,OK,OK
+P1140,INV1140,2024-10-21,S029,FacilityOne Services,Facilities,Repairs,Operations,North,7840.64,Overdue,No,Available,35,Priya,CC101,Medium,Yes,Flag,OK,Flag,OK,OK
+P1142,INV1142,2024-10-17,S029,FacilityOne Services,Facilities,Safety Supplies,Procurement,North,12556.18,Paid,No,Available,9,Ravi,CC115,Medium,Yes,Flag,OK,OK,OK,OK
+P1146,INV1146,2024-08-26,S007,SecureNet,IT,Security,Procurement,South,12049.59,Paid,No,Available,12,Priya,CC106,High,Yes,Flag,OK,OK,Flag,OK
+P1149,INV1149,2024-08-21,S011,TechCore Systems,IT,Networking,Admin,Northeast,22508.33,Paid,Yes,Missing,7,Emily,CC103,Medium,Yes,OK,Flag,OK,OK,OK
+P1150,INV1150,2024-04-28,S003,Prime Logistics,Logistics,Freight,HR,North,4228.28,Paid,Yes,Missing,19,Leo,CC104,High,No,OK,OK,OK,OK,Flag
+P1151,INV1151,2024-09-11,S027,Peak Freight,Logistics,Freight,HR,Northeast,21825.93,Paid,Yes,Missing,14,Leo,CC113,Medium,Yes,OK,Flag,OK,OK,OK
+P1152,INV1152,2024-08-01,S024,Titan Fabrication,Manufacturing,Consumables,Engineering,Northeast,16578.39,Paid,Yes,Missing,3,Emily,CC105,High,No,OK,Flag,OK,Flag,Flag
+P1153,INV1153,2024-09-01,S021,Velocity Cargo,Logistics,Last Mile,Supply Chain,South,2186.04,Paid,No,Available,15,Emily,CC105,High,Yes,Flag,OK,OK,OK,OK
+P1156,INV1156,2024-05-30,S010,BlueWave Freight,Logistics,Freight,Operations,Midwest,25331.43,Pending,No,Available,31,Leo,CC101,High,Yes,Flag,OK,Flag,Flag,OK
+P1157,INV1157,2024-04-04,S005,NextGen Components,Manufacturing,Tools,Finance,East,31139.02,Overdue,Yes,Available,44,Leo,CC102,Medium,Yes,OK,OK,Flag,OK,OK
+P1160,INV1160,2024-12-21,S026,Nova Precision,Manufacturing,Calibration,HR,Midwest,20421.6,Paid,Yes,Missing,13,Emily,CC110,Medium,Yes,OK,Flag,OK,OK,OK
+P1162,INV1162,2024-05-16,S021,Velocity Cargo,Logistics,Ocean Freight,HR,East,13664.71,Paid,No,Missing,10,Mark,CC115,High,Yes,Flag,Flag,OK,Flag,OK
+P1164,INV1164,2024-05-29,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,Facilities,South,35824.57,Paid,Yes,Available,17,David,CC114,High,Yes,OK,OK,OK,Flag,OK
+P1166,INV1166,2024-09-22,S005,NextGen Components,Manufacturing,Consumables,Facilities,Midwest,21565.88,Paid,No,Available,19,Ana,CC106,Medium,Yes,Flag,OK,OK,OK,OK
+P1174,INV1174,2024-12-09,S030,DataSphere Tech,IT,Laptops,Operations,Midwest,24233.04,Pending,No,Available,28,Sara,CC103,High,Yes,Flag,OK,OK,Flag,OK
+P1177,INV1177,2024-04-27,S024,Titan Fabrication,Manufacturing,Packaging,Engineering,North,8313.27,Paid,No,Available,18,Priya,CC115,High,No,Flag,OK,OK,OK,Flag
+P1183,INV1183,2024-12-14,S010,BlueWave Freight,Logistics,Shipping,Facilities,East,34884.21,Pending,No,Available,10,Leo,CC101,High,Yes,Flag,OK,OK,Flag,OK
+P1189,INV1189,2024-11-06,S011,TechCore Systems,IT,Monitors,Admin,North,4912.01,Paid,No,Missing,17,Ana,CC101,Medium,Yes,Flag,OK,OK,OK,OK
+P1190,INV1190,2024-06-06,S021,Velocity Cargo,Logistics,Warehousing,Operations,West,33272.06,Paid,Yes,Available,4,Nina,CC115,High,Yes,OK,OK,OK,Flag,OK
+P1195,INV1195,2024-03-01,S019,ForgeLine Parts,Manufacturing,Consumables,Facilities,West,24739.19,Paid,No,Missing,12,Sara,CC115,High,Yes,Flag,Flag,OK,Flag,OK
+P1196,INV1196,2024-03-26,S022,OmniTech Devices,IT,Accessories,Admin,North,8379.92,Paid,No,Available,12,Nina,CC101,Low,Yes,Flag,OK,OK,OK,OK
+P1197,INV1197,2024-03-07,S024,Titan Fabrication,Manufacturing,Tools,Admin,West,4582.77,Pending,No,Available,23,David,CC101,High,No,Flag,OK,OK,OK,Flag
+P1198,INV1198,2024-05-15,S024,Titan Fabrication,Manufacturing,Packaging,Procurement,South,23967.22,Paid,No,Missing,18,Mark,CC104,High,No,Flag,Flag,OK,Flag,Flag
+P1201,INV1201,2024-08-02,S003,Prime Logistics,Logistics,Ocean Freight,Facilities,South,27651.68,Paid,No,Missing,3,Mark,CC112,High,No,Flag,Flag,OK,Flag,Flag
+P1202,INV1202,2024-04-03,S019,ForgeLine Parts,Manufacturing,Consumables,Supply Chain,Northeast,33038.33,Paid,No,Available,20,Leo,CC114,High,Yes,Flag,OK,OK,Flag,OK
+P1203,INV1203,2024-09-22,S024,Titan Fabrication,Manufacturing,Consumables,Operations,North,1386.29,Paid,Yes,Available,10,Priya,CC114,High,No,OK,OK,OK,OK,Flag
+P1204,INV1204,2024-01-30,S010,BlueWave Freight,Logistics,Warehousing,Technology,Northeast,29575.22,Overdue,Yes,Available,39,John,CC101,High,Yes,OK,OK,Flag,Flag,OK
+P1207,INV1207,2024-02-02,S026,Nova Precision,Manufacturing,Consumables,HR,Midwest,21253.1,Overdue,Yes,Available,33,David,CC105,Medium,Yes,OK,OK,Flag,OK,OK
+P1209,INV1209,2024-08-02,S018,NorthStar Office,Office Supplies,Printers,Procurement,South,2632.79,Pending,Yes,Available,31,Nina,CC104,Low,Yes,OK,OK,Flag,OK,OK
+P1211,INV1211,2024-05-17,S007,SecureNet,IT,Software,Operations,Midwest,24186.44,Paid,Yes,Available,10,Emily,CC109,High,Yes,OK,OK,OK,Flag,OK
+P1214,INV1214,2024-02-13,S021,Velocity Cargo,Logistics,Shipping,Finance,West,18532.78,Paid,No,Available,18,David,CC103,High,Yes,Flag,OK,OK,Flag,OK
+P1226,INV1226,2024-06-18,S001,ABC Supplies,IT,Monitors,Procurement,West,22551.43,Pending,Yes,Missing,14,David,CC114,Low,Yes,OK,Flag,OK,OK,OK
+P1228,INV1228,2024-11-27,S016,CloudAxis Software,IT,Networking,Engineering,North,7725.85,Paid,No,Available,20,David,CC107,Medium,Yes,Flag,OK,OK,OK,OK
+P1234,INV1234,2024-05-27,S022,OmniTech Devices,IT,Security,Facilities,East,17892.71,Overdue,Yes,Missing,36,Ravi,CC108,Low,Yes,OK,Flag,Flag,OK,OK
+P1235,INV1235,2024-01-19,S030,DataSphere Tech,IT,Cloud Services,Procurement,Northeast,13147.26,Paid,Yes,Available,11,Ravi,CC103,High,Yes,OK,OK,OK,Flag,OK
+P1238,INV1238,2024-06-24,S022,OmniTech Devices,IT,Cloud Services,HR,South,18652.35,Paid,No,Missing,16,Sara,CC110,Low,Yes,Flag,Flag,OK,OK,OK
+P1240,INV1240,2024-09-05,S007,SecureNet,IT,Security,Technology,Northeast,25038.83,Paid,No,Available,5,Leo,CC113,High,Yes,Flag,OK,OK,Flag,OK
+P1241,INV1241,2024-10-11,S015,RapidRoute Shipping,Logistics,Express Delivery,Admin,North,16159.08,Paid,No,Available,11,Ravi,CC102,High,Yes,Flag,OK,OK,Flag,OK
+P1245,INV1245,2024-02-02,S021,Velocity Cargo,Logistics,Shipping,Technology,North,7284.8,Paid,No,Available,9,Mark,CC110,High,Yes,Flag,OK,OK,OK,OK
+P1246,INV1246,2024-06-23,S017,PureSpace Cleaning,Facilities,Repairs,HR,North,11636.71,Pending,Yes,Missing,24,Ravi,CC110,Low,Yes,OK,Flag,OK,OK,OK
+P1251,INV1251,2024-04-07,S005,NextGen Components,Manufacturing,Packaging,Finance,South,25392.6,Overdue,Yes,Available,46,Leo,CC112,Medium,Yes,OK,OK,Flag,OK,OK
+P1252,INV1252,2024-04-18,S015,RapidRoute Shipping,Logistics,Freight,Engineering,East,9576.53,Paid,No,Available,5,David,CC112,High,Yes,Flag,OK,OK,OK,OK
+P1254,INV1254,2024-07-04,S017,PureSpace Cleaning,Facilities,Cleaning,Technology,North,6835.54,Overdue,Yes,Available,34,David,CC102,Low,Yes,OK,OK,Flag,OK,OK
+P1257,INV1257,2024-11-29,S030,DataSphere Tech,IT,Software,Facilities,South,27481.96,Paid,Yes,Available,19,Mark,CC109,High,Yes,OK,OK,OK,Flag,OK
+P1260,INV1260,2024-05-18,S008,GreenSource,Facilities,Utilities,Admin,Northeast,13372.29,Paid,Yes,Missing,20,Nina,CC104,Medium,Yes,OK,Flag,OK,OK,OK
+P1262,INV1262,2024-04-07,S016,CloudAxis Software,IT,Servers,Admin,North,16951.59,Overdue,Yes,Available,37,Ana,CC102,Medium,Yes,OK,OK,Flag,OK,OK
+P1264,INV1264,2024-10-14,S025,SafeGrid Security,IT,Laptops,HR,East,3147.65,Paid,No,Available,18,Ravi,CC106,Medium,Yes,Flag,OK,OK,OK,OK
+P1265,INV1265,2024-09-11,S011,TechCore Systems,IT,Accessories,HR,South,14178.67,Pending,No,Available,22,Ravi,CC104,Medium,Yes,Flag,OK,OK,OK,OK
+P1266,INV1266,2024-05-03,S030,DataSphere Tech,IT,Accessories,Engineering,South,21155.34,Paid,No,Available,11,John,CC110,High,Yes,Flag,OK,OK,Flag,OK
+P1267,INV1267,2024-03-22,S029,FacilityOne Services,Facilities,HVAC,Procurement,South,6401.81,Paid,No,Available,11,Mark,CC108,Medium,Yes,Flag,OK,OK,OK,OK
+P1270,INV1270,2024-05-13,S021,Velocity Cargo,Logistics,Express Delivery,Engineering,North,31649.88,Paid,No,Missing,6,Nina,CC113,High,Yes,Flag,Flag,OK,Flag,OK
+P1272,INV1272,2024-01-16,S030,DataSphere Tech,IT,Laptops,Procurement,Northeast,17453.93,Paid,Yes,Available,16,Emily,CC110,High,Yes,OK,OK,OK,Flag,OK
+P1274,INV1274,2024-04-02,S007,SecureNet,IT,Cloud Services,Procurement,Northeast,16874.64,Overdue,Yes,Available,54,Ana,CC115,High,Yes,OK,OK,Flag,Flag,OK
+P1283,INV1283,2024-05-06,S030,DataSphere Tech,IT,Laptops,Procurement,Midwest,11025.21,Paid,No,Available,11,Ravi,CC115,High,Yes,Flag,OK,OK,Flag,OK
+P1284,INV1284,2024-02-09,S003,Prime Logistics,Logistics,Express Delivery,Facilities,Northeast,14877.1,Paid,No,Available,10,Ravi,CC115,High,No,Flag,OK,OK,Flag,Flag
+P1285,INV1285,2024-03-11,S007,SecureNet,IT,Monitors,HR,West,16116.5,Pending,No,Missing,13,Nina,CC115,High,Yes,Flag,Flag,OK,Flag,OK
+P1286,INV1286,2024-03-09,S025,SafeGrid Security,IT,Laptops,Engineering,North,21459.24,Pending,No,Available,23,Priya,CC114,Medium,Yes,Flag,OK,OK,OK,OK
+P1288,INV1288,2024-12-08,S024,Titan Fabrication,Manufacturing,Machine Parts,Procurement,North,20089.06,Paid,Yes,Available,20,Sara,CC107,High,No,OK,OK,OK,Flag,Flag
+P1295,INV1295,2024-11-28,S019,ForgeLine Parts,Manufacturing,Calibration,Engineering,East,34059.17,Overdue,Yes,Available,32,Nina,CC113,High,Yes,OK,OK,Flag,Flag,OK
+P1296,INV1296,2024-08-19,S030,DataSphere Tech,IT,Security,Engineering,South,13433.38,Pending,Yes,Available,29,Emily,CC103,High,Yes,OK,OK,OK,Flag,OK
+P1297,INV1297,2024-03-12,S029,FacilityOne Services,Facilities,HVAC,Finance,South,12979.52,Paid,No,Available,14,David,CC115,Medium,Yes,Flag,OK,OK,OK,OK
+P1298,INV1298,2024-06-14,S019,ForgeLine Parts,Manufacturing,Calibration,Technology,East,28331.28,Paid,No,Available,12,Leo,CC108,High,Yes,Flag,OK,OK,Flag,OK
+P1302,INV1302,2024-06-21,S025,SafeGrid Security,IT,Security,Supply Chain,East,15575.54,Pending,No,Available,20,Nina,CC114,Medium,Yes,Flag,OK,OK,OK,OK
+P1303,INV1303,2024-12-29,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,HR,Northeast,28373.06,Paid,No,Available,18,John,CC111,High,Yes,Flag,OK,OK,Flag,OK
+P1304,INV1304,2024-05-09,S019,ForgeLine Parts,Manufacturing,Consumables,HR,Midwest,23065.68,Paid,Yes,Available,8,David,CC102,High,Yes,OK,OK,OK,Flag,OK
+P1306,INV1306,2024-08-10,S021,Velocity Cargo,Logistics,Express Delivery,Facilities,Northeast,20195.41,Paid,Yes,Available,15,Emily,CC110,High,Yes,OK,OK,OK,Flag,OK
+P1308,INV1308,2024-05-08,S009,Apex Industrial,Manufacturing,Packaging,Finance,North,11049.37,Paid,Yes,Missing,17,Emily,CC105,Medium,Yes,OK,Flag,OK,OK,OK
+P1310,INV1310,2024-11-01,S010,BlueWave Freight,Logistics,Freight,Admin,Midwest,3358.24,Paid,No,Available,4,Emily,CC106,High,Yes,Flag,OK,OK,OK,OK
+P1311,INV1311,2024-05-16,S010,BlueWave Freight,Logistics,Shipping,Operations,North,10194.27,Pending,No,Missing,22,Mark,CC109,High,Yes,Flag,Flag,OK,Flag,OK
+P1314,INV1314,2024-12-17,S021,Velocity Cargo,Logistics,Express Delivery,Supply Chain,East,14012.07,Paid,No,Available,17,Priya,CC113,High,Yes,Flag,OK,OK,Flag,OK
+P1318,INV1318,2024-06-10,S021,Velocity Cargo,Logistics,Shipping,Admin,North,13788.14,Paid,No,Missing,12,Nina,CC115,High,Yes,Flag,Flag,OK,Flag,OK
+P1322,INV1322,2024-05-01,S004,FastClean Services,Facilities,Repairs,Engineering,West,3746.07,Pending,No,Available,23,John,CC107,Low,Yes,Flag,OK,OK,OK,OK
+P1324,INV1324,2024-04-30,S003,Prime Logistics,Logistics,Warehousing,HR,North,7154.58,Paid,Yes,Available,11,David,CC110,High,No,OK,OK,OK,OK,Flag
+P1326,INV1326,2024-01-20,S012,EverBright Utilities,Facilities,Repairs,Facilities,Northeast,10914.76,Paid,Yes,Missing,13,Priya,CC102,Low,Yes,OK,Flag,OK,OK,OK
+P1328,INV1328,2024-05-14,S024,Titan Fabrication,Manufacturing,Machine Parts,Finance,North,34556.32,Pending,Yes,Available,19,Ana,CC110,High,No,OK,OK,OK,Flag,Flag
+P1331,INV1331,2024-01-11,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,Procurement,East,21417.11,Paid,No,Missing,4,Ravi,CC104,High,Yes,Flag,Flag,OK,Flag,OK
+P1335,INV1335,2024-11-18,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,Procurement,East,39195.24,Paid,Yes,Available,12,Emily,CC105,High,Yes,OK,OK,OK,Flag,OK
+P1336,INV1336,2024-08-13,S021,Velocity Cargo,Logistics,Last Mile,Engineering,Midwest,5893.03,Paid,No,Available,5,Mark,CC114,High,Yes,Flag,OK,OK,OK,OK
+P1337,INV1337,2024-05-19,S021,Velocity Cargo,Logistics,Warehousing,Operations,West,34635.32,Paid,No,Available,3,Emily,CC114,High,Yes,Flag,OK,OK,Flag,OK
+P1342,INV1342,2024-08-27,S030,DataSphere Tech,IT,Cloud Services,Engineering,Northeast,27224.69,Paid,Yes,Missing,3,Emily,CC103,High,Yes,OK,Flag,OK,Flag,OK
+P1343,INV1343,2024-05-09,S016,CloudAxis Software,IT,Servers,Operations,South,19247.32,Paid,No,Available,17,Ravi,CC105,Medium,Yes,Flag,OK,OK,OK,OK
+P1344,INV1344,2024-06-29,S009,Apex Industrial,Manufacturing,Consumables,Engineering,North,40313.35,Paid,No,Missing,13,Leo,CC104,Medium,Yes,Flag,Flag,OK,OK,OK
+P1345,INV1345,2024-10-12,S010,BlueWave Freight,Logistics,Freight,Engineering,West,14159.11,Paid,No,Available,18,Ravi,CC111,High,Yes,Flag,OK,OK,Flag,OK
+P1346,INV1346,2024-12-18,S024,Titan Fabrication,Manufacturing,Machine Parts,HR,Northeast,40771.64,Paid,No,Available,4,Mark,CC110,High,No,Flag,OK,OK,Flag,Flag
+P1347,INV1347,2024-07-13,S015,RapidRoute Shipping,Logistics,Warehousing,Admin,South,30331.01,Paid,Yes,Available,5,Emily,CC108,High,Yes,OK,OK,OK,Flag,OK
+P1350,INV1350,2024-06-09,S003,Prime Logistics,Logistics,Warehousing,HR,West,4385.06,Paid,Yes,Available,11,Ana,CC111,High,No,OK,OK,OK,OK,Flag
+P1351,INV1351,2024-10-23,S007,SecureNet,IT,Security,Facilities,North,9725.88,Paid,No,Available,9,Priya,CC103,High,Yes,Flag,OK,OK,OK,OK
+P1352,INV1352,2024-07-06,S009,Apex Industrial,Manufacturing,Tools,Admin,North,4902.29,Pending,No,Available,16,David,CC105,Medium,Yes,Flag,OK,OK,OK,OK
+P1354,INV1354,2024-04-23,S016,CloudAxis Software,IT,Networking,Finance,North,20055.69,Paid,Yes,Missing,17,Ravi,CC114,Medium,Yes,OK,Flag,OK,OK,OK
+P1355,INV1355,2024-04-18,S003,Prime Logistics,Logistics,Freight,Supply Chain,West,18517.51,Pending,No,Available,28,Nina,CC101,High,No,Flag,OK,OK,Flag,Flag
+P1358,INV1358,2024-10-12,S027,Peak Freight,Logistics,Ocean Freight,Finance,Northeast,22539.39,Pending,Yes,Available,31,Mark,CC109,Medium,Yes,OK,OK,Flag,OK,OK
+P1361,INV1361,2024-12-06,S015,RapidRoute Shipping,Logistics,Ocean Freight,Finance,West,24091.38,Paid,No,Available,13,Emily,CC104,High,Yes,Flag,OK,OK,Flag,OK
+P1362,INV1362,2024-05-30,S015,RapidRoute Shipping,Logistics,Ocean Freight,HR,West,24544.57,Paid,Yes,Available,3,Leo,CC104,High,Yes,OK,OK,OK,Flag,OK
+P1364,INV1364,2024-07-09,S010,BlueWave Freight,Logistics,Shipping,HR,Northeast,29620.99,Paid,No,Available,7,Mark,CC104,High,Yes,Flag,OK,OK,Flag,OK
+P1366,INV1366,2024-09-18,S019,ForgeLine Parts,Manufacturing,Tools,Supply Chain,West,3801.15,Overdue,Yes,Available,41,Ravi,CC113,High,Yes,OK,OK,Flag,OK,OK
+P1367,INV1367,2024-10-09,S015,RapidRoute Shipping,Logistics,Express Delivery,Operations,South,13555.05,Pending,Yes,Available,37,John,CC106,High,Yes,OK,OK,Flag,Flag,OK
+P1370,INV1370,2024-03-31,S019,ForgeLine Parts,Manufacturing,Machine Parts,Procurement,West,16613.77,Pending,Yes,Missing,14,Ravi,CC108,High,Yes,OK,Flag,OK,Flag,OK
+P1372,INV1372,2024-06-21,S024,Titan Fabrication,Manufacturing,Packaging,Operations,North,14323.97,Paid,Yes,Available,8,Mark,CC105,High,No,OK,OK,OK,Flag,Flag
+P1374,INV1374,2024-04-16,S026,Nova Precision,Manufacturing,Machine Parts,Admin,Northeast,9905.43,Overdue,Yes,Available,53,Emily,CC104,Medium,Yes,OK,OK,Flag,OK,OK
+P1380,INV1380,2024-07-30,S004,FastClean Services,Facilities,Repairs,HR,East,12970.77,Paid,Yes,Missing,16,Nina,CC112,Low,Yes,OK,Flag,OK,OK,OK
+P1381,INV1381,2024-02-28,S026,Nova Precision,Manufacturing,Packaging,Supply Chain,Northeast,28772.94,Overdue,Yes,Available,52,David,CC103,Medium,Yes,OK,OK,Flag,OK,OK
+P1384,INV1384,2024-01-14,S030,DataSphere Tech,IT,Monitors,Supply Chain,South,22472.82,Overdue,Yes,Missing,33,Nina,CC108,High,Yes,OK,Flag,Flag,Flag,OK
+P1386,INV1386,2024-12-16,S010,BlueWave Freight,Logistics,Last Mile,Facilities,North,13790.33,Paid,No,Available,5,David,CC112,High,Yes,Flag,OK,OK,Flag,OK
+P1390,INV1390,2024-08-31,S021,Velocity Cargo,Logistics,Shipping,Admin,South,27768.83,Paid,No,Missing,19,Sara,CC105,High,Yes,Flag,Flag,OK,Flag,OK
+P1391,INV1391,2024-03-26,S023,PaperTrail Office,Office Supplies,Paper,Procurement,Northeast,7278.71,Overdue,Yes,Available,33,Leo,CC112,Low,Yes,OK,OK,Flag,OK,OK
+P1392,INV1392,2024-09-19,S008,GreenSource,Facilities,HVAC,Operations,South,4110.54,Paid,No,Available,18,Nina,CC114,Medium,Yes,Flag,OK,OK,OK,OK
+P1396,INV1396,2024-07-03,S030,DataSphere Tech,IT,Servers,HR,North,5303.25,Paid,No,Available,3,Priya,CC114,High,Yes,Flag,OK,OK,OK,OK
+P1397,INV1397,2024-09-08,S024,Titan Fabrication,Manufacturing,Calibration,Admin,East,2911.88,Paid,No,Available,20,Emily,CC111,High,No,Flag,OK,OK,OK,Flag
+P1403,INV1403,2024-05-08,S006,OfficePro,Office Supplies,Breakroom Supplies,Engineering,East,3044.26,Paid,No,Available,7,Leo,CC112,Low,Yes,Flag,OK,OK,OK,OK
+P1408,INV1408,2024-01-13,S025,SafeGrid Security,IT,Servers,Finance,South,23327.79,Pending,Yes,Missing,28,Priya,CC115,Medium,Yes,OK,Flag,OK,OK,OK
+P1409,INV1409,2024-03-04,S008,GreenSource,Facilities,Repairs,Admin,North,415.41,Paid,No,Available,6,Emily,CC102,Medium,Yes,Flag,OK,OK,OK,OK
+P1410,INV1410,2024-03-21,S019,ForgeLine Parts,Manufacturing,Tools,Finance,East,39818.52,Overdue,No,Available,36,Emily,CC113,High,Yes,Flag,OK,Flag,Flag,OK
+P1411,INV1411,2024-03-21,S030,DataSphere Tech,IT,Security,Admin,East,18822.28,Paid,No,Missing,18,Sara,CC102,High,Yes,Flag,Flag,OK,Flag,OK
+P1413,INV1413,2024-04-16,S021,Velocity Cargo,Logistics,Ocean Freight,Operations,North,12524.38,Paid,No,Available,16,Ravi,CC106,High,Yes,Flag,OK,OK,Flag,OK
+P1414,INV1414,2024-01-14,S006,OfficePro,Office Supplies,Printers,HR,Midwest,4052.22,Overdue,Yes,Available,40,Emily,CC114,Low,Yes,OK,OK,Flag,OK,OK
+P1417,INV1417,2024-03-22,S003,Prime Logistics,Logistics,Last Mile,HR,South,13886.73,Paid,No,Missing,11,Mark,CC103,High,No,Flag,Flag,OK,Flag,Flag
+P1418,INV1418,2024-04-01,S010,BlueWave Freight,Logistics,Express Delivery,Technology,Midwest,30967.71,Paid,No,Available,19,Leo,CC104,High,Yes,Flag,OK,OK,Flag,OK
+P1419,INV1419,2024-10-25,S024,Titan Fabrication,Manufacturing,Calibration,Supply Chain,South,9984.11,Paid,No,Available,20,Ravi,CC111,High,No,Flag,OK,OK,OK,Flag
+P1420,INV1420,2024-05-24,S009,Apex Industrial,Manufacturing,Calibration,Operations,Northeast,16491.61,Paid,No,Available,13,Sara,CC113,Medium,Yes,Flag,OK,OK,OK,OK
+P1421,INV1421,2024-04-04,S030,DataSphere Tech,IT,Monitors,Facilities,Midwest,27754.14,Paid,No,Available,9,Emily,CC113,High,Yes,Flag,OK,OK,Flag,OK
+P1426,INV1426,2024-11-26,S007,SecureNet,IT,Monitors,Facilities,Northeast,1898.24,Paid,No,Available,3,Ana,CC102,High,Yes,Flag,OK,OK,OK,OK
+P1428,INV1428,2024-03-14,S011,TechCore Systems,IT,Security,HR,East,21070.09,Paid,Yes,Missing,11,John,CC110,Medium,Yes,OK,Flag,OK,OK,OK
+P1429,INV1429,2024-07-26,S010,BlueWave Freight,Logistics,Warehousing,Technology,West,21747.76,Pending,Yes,Available,12,Emily,CC106,High,Yes,OK,OK,OK,Flag,OK
+P1430,INV1430,2024-05-03,S003,Prime Logistics,Logistics,Ocean Freight,Supply Chain,North,19406.93,Paid,Yes,Available,6,David,CC113,High,No,OK,OK,OK,Flag,Flag
+P1431,INV1431,2024-11-11,S010,BlueWave Freight,Logistics,Express Delivery,Supply Chain,East,26619.11,Paid,Yes,Available,8,Sara,CC111,High,Yes,OK,OK,OK,Flag,OK
+P1432,INV1432,2024-02-23,S007,SecureNet,IT,Cloud Services,Technology,East,25137.55,Paid,Yes,Available,15,Emily,CC109,High,Yes,OK,OK,OK,Flag,OK
+P1439,INV1439,2024-09-02,S024,Titan Fabrication,Manufacturing,Maintenance Kits,Technology,West,31785.51,Pending,Yes,Missing,29,Ana,CC106,High,No,OK,Flag,OK,Flag,Flag
+P1440,INV1440,2024-09-09,S015,RapidRoute Shipping,Logistics,Ocean Freight,HR,North,34782.67,Paid,Yes,Available,13,David,CC114,High,Yes,OK,OK,OK,Flag,OK
+P1441,INV1441,2024-07-17,S007,SecureNet,IT,Monitors,Admin,North,19645.7,Paid,Yes,Missing,16,John,CC110,High,Yes,OK,Flag,OK,Flag,OK
+P1442,INV1442,2024-01-18,S005,NextGen Components,Manufacturing,Consumables,Supply Chain,West,37518.63,Paid,Yes,Missing,17,Emily,CC115,Medium,Yes,OK,Flag,OK,OK,OK
+P1444,INV1444,2024-05-06,S011,TechCore Systems,IT,Accessories,Engineering,West,22308.74,Paid,Yes,Missing,9,Mark,CC108,Medium,Yes,OK,Flag,OK,OK,OK
+P1446,INV1446,2024-10-06,S021,Velocity Cargo,Logistics,Warehousing,Procurement,Northeast,21980.58,Paid,No,Missing,4,Nina,CC107,High,Yes,Flag,Flag,OK,Flag,OK
+P1447,INV1447,2024-04-14,S026,Nova Precision,Manufacturing,Maintenance Kits,Engineering,North,11728.03,Paid,No,Available,3,David,CC102,Medium,Yes,Flag,OK,OK,OK,OK
+P1448,INV1448,2024-09-20,S024,Titan Fabrication,Manufacturing,Packaging,Operations,Northeast,11278.52,Overdue,Yes,Available,36,Leo,CC115,High,No,OK,OK,Flag,Flag,Flag
+P1450,INV1450,2024-10-29,S015,RapidRoute Shipping,Logistics,Shipping,Operations,South,25580.55,Pending,Yes,Missing,23,Priya,CC101,High,Yes,OK,Flag,OK,Flag,OK
+P1452,INV1452,2024-03-04,S010,BlueWave Freight,Logistics,Express Delivery,Supply Chain,East,15009.55,Pending,No,Missing,29,Priya,CC104,High,Yes,Flag,Flag,OK,Flag,OK
+P1454,INV1454,2024-06-14,S028,CoreOffice Depot,Office Supplies,Stationery,Admin,Northeast,1364.26,Overdue,Yes,Available,34,Nina,CC103,Low,Yes,OK,OK,Flag,OK,OK
+P1456,INV1456,2024-05-26,S010,BlueWave Freight,Logistics,Express Delivery,Technology,North,23203.69,Pending,Yes,Available,24,Emily,CC101,High,Yes,OK,OK,OK,Flag,OK
+P1458,INV1458,2024-03-07,S009,Apex Industrial,Manufacturing,Calibration,HR,West,21647.33,Paid,Yes,Missing,17,Priya,CC111,Medium,Yes,OK,Flag,OK,OK,OK
+P1460,INV1460,2024-11-23,S003,Prime Logistics,Logistics,Freight,Operations,West,8440.24,Paid,No,Available,9,Ravi,CC108,High,No,Flag,OK,OK,OK,Flag
+P1463,INV1463,2024-05-02,S023,PaperTrail Office,Office Supplies,Printers,Supply Chain,Midwest,7772.12,Pending,No,Available,25,David,CC113,Low,Yes,Flag,OK,OK,OK,OK
+P1472,INV1472,2024-08-01,S019,ForgeLine Parts,Manufacturing,Packaging,Finance,North,1598.61,Paid,No,Available,3,Ravi,CC108,High,Yes,Flag,OK,OK,OK,OK
+P1473,INV1473,2024-10-14,S021,Velocity Cargo,Logistics,Express Delivery,Operations,South,25500.61,Pending,Yes,Missing,22,David,CC111,High,Yes,OK,Flag,OK,Flag,OK
+P1475,INV1475,2024-01-02,S030,DataSphere Tech,IT,Security,Supply Chain,East,9082.43,Pending,Yes,Available,36,Emily,CC109,High,Yes,OK,OK,Flag,OK,OK
+P1477,INV1477,2024-10-20,S008,GreenSource,Facilities,Safety Supplies,Technology,North,6236.83,Paid,No,Available,5,Ravi,CC113,Medium,Yes,Flag,OK,OK,OK,OK

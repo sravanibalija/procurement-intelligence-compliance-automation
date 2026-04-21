@@ -1,0 +1,31 @@
+Supplier_Name,Supplier_Category,Risk_Level,On_Time_Delivery_Pct,Late_Delivery_Pct,Defect_Rate_Pct,Avg_Lead_Time_Days,Contract_Active
+ABC Supplies,IT,Low,91.57,8.43,0.64,3.9,Yes
+Delta Office,Office Supplies,Low,92.41,7.59,0.57,6.9,Yes
+Prime Logistics,Logistics,High,68.18,31.82,3.66,11.7,No
+FastClean Services,Facilities,Low,95.58,4.42,0.83,3.8,Yes
+NextGen Components,Manufacturing,Medium,89.33,10.67,2.72,6.5,Yes
+OfficePro,Office Supplies,Low,90.57,9.43,0.62,5.2,Yes
+SecureNet,IT,High,70.83,29.17,2.59,12.2,Yes
+GreenSource,Facilities,Medium,83.94,16.06,2.17,9.1,Yes
+Apex Industrial,Manufacturing,Medium,82.0,18.0,2.21,8.4,Yes
+BlueWave Freight,Logistics,High,77.29,22.71,4.58,17.0,Yes
+TechCore Systems,IT,Medium,85.88,14.12,2.41,9.5,Yes
+EverBright Utilities,Facilities,Low,96.7,3.3,0.41,4.8,Yes
+Metro Furnishings,Office Supplies,Low,92.89,7.11,0.8,5.1,Yes
+Vertex Tools,Manufacturing,Medium,82.05,17.95,1.11,9.5,Yes
+RapidRoute Shipping,Logistics,High,82.19,17.81,3.93,14.0,Yes
+CloudAxis Software,IT,Medium,88.24,11.76,2.73,9.5,Yes
+PureSpace Cleaning,Facilities,Low,93.8,6.2,0.42,5.6,Yes
+NorthStar Office,Office Supplies,Low,95.18,4.82,0.29,5.3,Yes
+ForgeLine Parts,Manufacturing,High,70.67,29.33,4.85,18.1,Yes
+EcoMaintain,Facilities,Medium,82.86,17.14,1.92,9.9,Yes
+Velocity Cargo,Logistics,High,73.63,26.37,5.19,12.9,Yes
+OmniTech Devices,IT,Low,90.17,9.83,0.48,5.4,Yes
+PaperTrail Office,Office Supplies,Low,92.49,7.51,0.15,6.0,Yes
+Titan Fabrication,Manufacturing,High,81.98,18.02,2.74,17.3,No
+SafeGrid Security,IT,Medium,89.23,10.77,2.62,6.3,Yes
+Nova Precision,Manufacturing,Medium,85.64,14.36,1.31,9.6,Yes
+Peak Freight,Logistics,Medium,89.58,10.42,1.72,8.9,Yes
+CoreOffice Depot,Office Supplies,Low,93.59,6.41,0.32,5.9,Yes
+FacilityOne Services,Facilities,Medium,82.78,17.22,1.82,6.1,Yes
+DataSphere Tech,IT,High,81.62,18.38,5.01,15.9,Yes
