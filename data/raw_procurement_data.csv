@@ -1,1 +1,481 @@
-
+Purchase_ID,Invoice_ID,Invoice_Date,Supplier_ID,Supplier_Name,Category,Subcategory,Department,Region,Amount,Payment_Status,Contract_Compliance,PO_Status,Invoice_Processing_Days,Buyer_Name,Cost_Center
+P1001,INV1001,2024-01-15,S027,Peak Freight,Logistics,Freight,Supply Chain,Midwest,15586.3,Paid,Yes,Available,20,Ana,CC109
+P1002,INV1002,2024-04-25,S002,Delta Office,Office Supplies,Furniture,Supply Chain,East,6190.19,Pending,Yes,Available,30,David,CC101
+P1003,INV1003,2024-02-11,S028,CoreOffice Depot,Office Supplies,Printers,Admin,West,7978.94,Overdue,Yes,Available,27,Leo,CC106
+P1004,INV1004,2024-10-10,S023,PaperTrail Office,Office Supplies,Furniture,Facilities,North,766.77,Paid,Yes,Available,20,David,CC113
+P1005,INV1005,2024-10-22,S023,PaperTrail Office,Office Supplies,Office Equipment,Technology,Midwest,298.22,Pending,Yes,Available,27,Leo,CC108
+P1006,INV1006,2024-10-26,S001,ABC Supplies,IT,Servers,Supply Chain,East,9910.52,Paid,Yes,Available,14,Sara,CC113
+P1007,INV1007,2024-04-08,S030,DataSphere Tech,IT,Software,Engineering,North,12821.24,Pending,Yes,Available,21,Priya,CC102
+P1008,INV1008,2024-03-03,S015,RapidRoute Shipping,Logistics,Shipping,Facilities,Midwest,32337.22,Pending,No,Available,20,Priya,CC104
+P1009,INV1009,2024-05-16,S008,GreenSource,Facilities,Safety Supplies,Finance,East,9143.99,Pending,Yes,Available,37,John,CC103
+P1010,INV1010,2024-08-07,S015,RapidRoute Shipping,Logistics,Express Delivery,Operations,East,5193.54,Paid,No,Available,4,Priya,CC115
+P1011,INV1011,2024-11-02,S028,CoreOffice Depot,Office Supplies,Printers,Procurement,South,8008.34,Pending,Yes,Available,16,Ana,CC114
+P1012,INV1012,2024-03-27,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,Operations,South,2198.37,Overdue,Yes,Available,36,John,CC105
+P1013,INV1013,2024-09-28,S004,FastClean Services,Facilities,Utilities,Engineering,West,7465.62,Pending,Yes,Available,28,Ana,CC108
+P1014,INV1014,2024-10-12,S029,FacilityOne Services,Facilities,HVAC,Procurement,North,8676.84,Paid,Yes,Available,5,Emily,CC102
+P1015,INV1015,2024-08-09,S027,Peak Freight,Logistics,Freight,Admin,South,3045.16,Pending,Yes,Available,26,John,CC104
+P1016,INV1016,2024-02-07,S004,FastClean Services,Facilities,Safety Supplies,Technology,West,12762.83,Paid,Yes,Available,13,Sara,CC112
+P1017,INV1017,2024-08-11,S003,Prime Logistics,Logistics,Freight,Engineering,West,31149.77,Paid,No,Available,12,Priya,CC113
+P1018,INV1018,2024-04-25,S026,Nova Precision,Manufacturing,Packaging,Admin,North,7183.15,Paid,Yes,Available,15,Ana,CC115
+P1019,INV1019,2024-01-22,S029,FacilityOne Services,Facilities,Maintenance,HR,North,7082.83,Paid,Yes,Available,6,Priya,CC109
+P1020,INV1020,2024-08-15,S029,FacilityOne Services,Facilities,Cleaning,Engineering,West,8700.88,Paid,Yes,Available,4,Leo,CC111
+P1021,INV1021,2024-02-12,S028,CoreOffice Depot,Office Supplies,Paper,Operations,West,2801.85,Pending,Yes,Available,24,Mark,CC113
+P1022,INV1022,2024-06-18,S015,RapidRoute Shipping,Logistics,Freight,HR,North,27996.72,Paid,Yes,Missing,9,Ana,CC103
+P1023,INV1023,2024-07-02,S003,Prime Logistics,Logistics,Ocean Freight,Operations,West,23723.89,Paid,No,Available,10,John,CC105
+P1024,INV1024,2024-07-24,S022,OmniTech Devices,IT,Monitors,HR,South,9469.37,Paid,Yes,Available,20,Ravi,CC104
+P1025,INV1025,2024-01-01,S025,SafeGrid Security,IT,Servers,Engineering,East,3896.9,Pending,Yes,Available,32,Priya,CC111
+P1026,INV1026,2024-08-01,S025,SafeGrid Security,IT,Laptops,Finance,West,4038.42,Pending,Yes,Available,18,David,CC112
+P1027,INV1027,2024-06-15,S005,NextGen Components,Manufacturing,Machine Parts,Procurement,Northeast,8448.56,Paid,Yes,Available,20,Ana,CC104
+P1028,INV1028,2024-07-02,S004,FastClean Services,Facilities,Safety Supplies,Operations,North,3073.46,Paid,Yes,Available,20,John,CC105
+P1029,INV1029,2024-11-16,S029,FacilityOne Services,Facilities,Maintenance,HR,East,10269.91,Paid,Yes,Available,6,Ana,CC115
+P1030,INV1030,2024-07-03,S028,CoreOffice Depot,Office Supplies,Stationery,Finance,Midwest,7776.55,Paid,Yes,Available,16,Nina,CC114
+P1031,INV1031,2024-09-30,S002,Delta Office,Office Supplies,Paper,Admin,West,1067.55,Paid,Yes,Available,12,Ana,CC114
+P1032,INV1032,2024-02-21,S022,OmniTech Devices,IT,Software,Procurement,West,3569.91,Overdue,Yes,Available,37,David,CC104
+P1033,INV1033,2024-01-03,S001,ABC Supplies,IT,Servers,Operations,North,7061.51,Pending,Yes,Available,20,Ravi,CC102
+P1034,INV1034,2024-03-03,S006,OfficePro,Office Supplies,Printers,Finance,Midwest,7434.09,Pending,Yes,Available,30,Nina,CC113
+P1035,INV1035,2024-01-12,S003,Prime Logistics,Logistics,Warehousing,HR,South,23501.58,Paid,Yes,Available,9,Mark,CC111
+P1036,INV1036,2024-04-23,S021,Velocity Cargo,Logistics,Warehousing,Engineering,East,2609.66,Pending,Yes,Available,25,Ana,CC114
+P1037,INV1037,2024-02-15,S022,OmniTech Devices,IT,Networking,Technology,South,24209.4,Paid,Yes,Available,3,Nina,CC102
+P1038,INV1038,2024-01-26,S030,DataSphere Tech,IT,Servers,Procurement,Northeast,27398.97,Pending,No,Available,29,Ana,CC102
+P1039,INV1039,2024-03-18,S012,EverBright Utilities,Facilities,Utilities,Engineering,North,848.2,Paid,Yes,Available,12,Ravi,CC105
+P1040,INV1040,2024-04-04,S025,SafeGrid Security,IT,Laptops,Operations,Midwest,11772.35,Paid,No,Available,5,Leo,CC111
+P1041,INV1041,2024-08-20,S002,Delta Office,Office Supplies,Stationery,Supply Chain,East,5129.25,Pending,Yes,Available,39,Emily,CC106
+P1042,INV1042,2024-05-25,S001,ABC Supplies,IT,Software,Technology,East,18299.38,Pending,Yes,Available,23,John,CC110
+P1043,INV1043,2024-07-09,S017,PureSpace Cleaning,Facilities,Safety Supplies,Procurement,South,1581.4,Pending,Yes,Available,16,Nina,CC111
+P1044,INV1044,2024-09-06,S024,Titan Fabrication,Manufacturing,Maintenance Kits,Procurement,Northeast,30196.71,Overdue,No,Available,52,Ravi,CC106
+P1045,INV1045,2024-03-31,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,Operations,East,5766.23,Paid,Yes,Available,19,John,CC103
+P1046,INV1046,2024-11-28,S027,Peak Freight,Logistics,Express Delivery,Admin,Midwest,6003.79,Paid,Yes,Available,8,Mark,CC113
+P1047,INV1047,2024-09-13,S009,Apex Industrial,Manufacturing,Maintenance Kits,Facilities,South,41299.52,Paid,Yes,Available,19,Ana,CC107
+P1048,INV1048,2024-08-29,S030,DataSphere Tech,IT,Accessories,Facilities,West,21017.02,Paid,Yes,Available,16,Ana,CC101
+P1049,INV1049,2024-06-29,S004,FastClean Services,Facilities,HVAC,Engineering,North,10063.28,Paid,Yes,Available,20,Leo,CC112
+P1050,INV1050,2024-04-29,S022,OmniTech Devices,IT,Servers,Technology,East,9848.76,Paid,Yes,Available,18,Mark,CC105
+P1051,INV1051,2024-07-01,S020,EcoMaintain,Facilities,Cleaning,Engineering,South,13374.14,Paid,Yes,Available,4,Nina,CC101
+P1052,INV1052,2024-09-20,S012,EverBright Utilities,Facilities,Maintenance,Supply Chain,South,8499.25,Paid,Yes,Available,9,Priya,CC112
+P1053,INV1053,2024-09-07,S022,OmniTech Devices,IT,Monitors,Admin,East,11874.97,Paid,Yes,Available,15,Ana,CC112
+P1054,INV1054,2024-03-30,S005,NextGen Components,Manufacturing,Maintenance Kits,Procurement,North,5875.16,Paid,No,Available,17,John,CC107
+P1055,INV1055,2024-06-02,S017,PureSpace Cleaning,Facilities,Utilities,HR,East,958.79,Overdue,Yes,Available,42,Leo,CC103
+P1056,INV1056,2024-08-15,S024,Titan Fabrication,Manufacturing,Consumables,Operations,East,5876.93,Paid,Yes,Available,12,Leo,CC108
+P1057,INV1057,2024-09-30,S013,Metro Furnishings,Office Supplies,Printers,Admin,Northeast,3104.3,Pending,Yes,Available,17,Emily,CC109
+P1058,INV1058,2024-06-08,S010,BlueWave Freight,Logistics,Warehousing,Finance,North,8535.67,Pending,Yes,Available,32,Ravi,CC102
+P1059,INV1059,2024-08-26,S030,DataSphere Tech,IT,Software,Admin,West,18393.42,Overdue,No,Available,43,Mark,CC112
+P1060,INV1060,2024-09-17,S004,FastClean Services,Facilities,Maintenance,Engineering,South,5973.33,Paid,Yes,Available,12,David,CC113
+P1061,INV1061,2024-02-12,S021,Velocity Cargo,Logistics,Express Delivery,Operations,South,26040.86,Paid,Yes,Available,7,Ravi,CC107
+P1062,INV1062,2024-08-20,S005,NextGen Components,Manufacturing,Machine Parts,Technology,East,7249.23,Paid,Yes,Available,12,Sara,CC110
+P1063,INV1063,2024-04-02,S023,PaperTrail Office,Office Supplies,Printers,Technology,West,3835.61,Paid,Yes,Available,8,Sara,CC101
+P1064,INV1064,2024-02-12,S019,ForgeLine Parts,Manufacturing,Machine Parts,HR,North,15179.36,Paid,Yes,Missing,20,Mark,CC104
+P1065,INV1065,2024-03-28,S028,CoreOffice Depot,Office Supplies,Stationery,Facilities,East,5730.85,Paid,Yes,Available,15,David,CC107
+P1066,INV1066,2024-03-22,S030,DataSphere Tech,IT,Networking,Operations,Midwest,20438.23,Pending,No,Available,37,Mark,CC104
+P1067,INV1067,2024-03-01,S017,PureSpace Cleaning,Facilities,HVAC,Procurement,South,7105.95,Paid,Yes,Available,18,Nina,CC111
+P1068,INV1068,2024-11-13,S007,SecureNet,IT,Networking,Operations,Midwest,22509.17,Paid,No,Available,11,Sara,CC104
+P1069,INV1069,2024-12-30,S015,RapidRoute Shipping,Logistics,Last Mile,Engineering,West,1300.94,Pending,No,Available,24,David,CC109
+P1070,INV1070,2024-08-18,S017,PureSpace Cleaning,Facilities,HVAC,Facilities,East,4514.23,Paid,Yes,Available,17,Ana,CC112
+P1071,INV1071,2024-06-28,S018,NorthStar Office,Office Supplies,Printers,Engineering,West,4238.3,Paid,Yes,Available,11,Ana,CC101
+P1072,INV1072,2024-06-26,S017,PureSpace Cleaning,Facilities,Maintenance,Operations,Northeast,9103.94,Paid,Yes,Available,8,Priya,CC104
+P1073,INV1073,2024-03-14,S030,DataSphere Tech,IT,Cloud Services,Procurement,Midwest,20317.04,Pending,No,Available,31,David,CC111
+P1074,INV1074,2024-12-27,S001,ABC Supplies,IT,Cloud Services,Facilities,Northeast,18421.06,Pending,No,Available,18,Leo,CC106
+P1075,INV1075,2024-01-02,S020,EcoMaintain,Facilities,Maintenance,Technology,East,13581.08,Paid,Yes,Available,4,Mark,CC113
+P1076,INV1076,2024-09-08,S010,BlueWave Freight,Logistics,Last Mile,Procurement,Midwest,10209.41,Paid,No,Missing,10,Emily,CC101
+P1077,INV1077,2024-08-02,S015,RapidRoute Shipping,Logistics,Warehousing,Finance,West,13976.96,Paid,No,Available,7,Priya,CC103
+P1078,INV1078,2024-05-22,S014,Vertex Tools,Manufacturing,Machine Parts,Operations,North,40539.88,Overdue,Yes,Available,23,David,CC104
+P1079,INV1079,2024-09-10,S012,EverBright Utilities,Facilities,Maintenance,Admin,South,1665.37,Paid,Yes,Available,14,John,CC112
+P1080,INV1080,2024-02-07,S030,DataSphere Tech,IT,Cloud Services,Procurement,Northeast,26882.51,Paid,Yes,Available,18,Sara,CC109
+P1081,INV1081,2024-04-08,S009,Apex Industrial,Manufacturing,Consumables,Facilities,East,26472.54,Paid,Yes,Available,12,Mark,CC109
+P1082,INV1082,2024-06-13,S001,ABC Supplies,IT,Cloud Services,HR,Midwest,23019.33,Paid,Yes,Available,10,Emily,CC114
+P1083,INV1083,2024-01-11,S020,EcoMaintain,Facilities,HVAC,Supply Chain,Northeast,1022.39,Paid,Yes,Available,15,Ana,CC103
+P1084,INV1084,2024-06-04,S012,EverBright Utilities,Facilities,Maintenance,Supply Chain,East,8985.84,Paid,Yes,Available,12,Emily,CC110
+P1085,INV1085,2024-12-12,S008,GreenSource,Facilities,Maintenance,Facilities,North,9894.1,Paid,Yes,Available,14,Nina,CC102
+P1086,INV1086,2024-03-14,S019,ForgeLine Parts,Manufacturing,Machine Parts,Supply Chain,West,27442.1,Paid,No,Available,15,Sara,CC111
+P1087,INV1087,2024-11-10,S012,EverBright Utilities,Facilities,Repairs,Procurement,Northeast,3388.85,Paid,Yes,Available,19,Sara,CC115
+P1088,INV1088,2024-11-20,S023,PaperTrail Office,Office Supplies,Furniture,Technology,North,106.24,Paid,Yes,Available,8,Priya,CC106
+P1089,INV1089,2024-07-19,S027,Peak Freight,Logistics,Ocean Freight,Procurement,Northeast,7928.27,Paid,No,Available,12,Mark,CC114
+P1090,INV1090,2024-03-30,S001,ABC Supplies,IT,Software,Procurement,Northeast,16321.35,Paid,Yes,Available,4,Priya,CC113
+P1091,INV1091,2024-02-26,S020,EcoMaintain,Facilities,Repairs,HR,South,6548.77,Paid,Yes,Available,4,Ana,CC103
+P1092,INV1092,2024-04-07,S005,NextGen Components,Manufacturing,Tools,HR,Midwest,14701.85,Pending,Yes,Available,21,Sara,CC108
+P1093,INV1093,2024-03-11,S005,NextGen Components,Manufacturing,Packaging,Admin,West,14445.79,Paid,Yes,Available,18,David,CC102
+P1094,INV1094,2024-12-03,S002,Delta Office,Office Supplies,Paper,Engineering,South,3954.03,Pending,Yes,Available,13,Nina,CC103
+P1095,INV1095,2024-05-05,S005,NextGen Components,Manufacturing,Tools,Admin,South,11137.26,Paid,No,Available,12,John,CC111
+P1096,INV1096,2024-07-04,S009,Apex Industrial,Manufacturing,Tools,Finance,West,11467.47,Overdue,Yes,Available,30,Nina,CC111
+P1097,INV1097,2024-07-21,S024,Titan Fabrication,Manufacturing,Tools,Technology,West,33488.85,Paid,No,Available,9,Ana,CC115
+P1098,INV1098,2024-04-10,S007,SecureNet,IT,Networking,Supply Chain,Northeast,13498.3,Paid,No,Available,3,Mark,CC103
+P1099,INV1099,2024-10-17,S023,PaperTrail Office,Office Supplies,Printers,HR,North,8108.11,Paid,Yes,Available,12,John,CC114
+P1100,INV1100,2024-09-13,S016,CloudAxis Software,IT,Cloud Services,HR,South,2928.32,Paid,Yes,Available,17,Emily,CC111
+P1101,INV1101,2024-11-14,S030,DataSphere Tech,IT,Security,Operations,South,4248.48,Pending,No,Available,34,Sara,CC113
+P1102,INV1102,2024-06-10,S015,RapidRoute Shipping,Logistics,Last Mile,Supply Chain,Midwest,23031.74,Paid,Yes,Available,17,Nina,CC112
+P1103,INV1103,2024-12-08,S028,CoreOffice Depot,Office Supplies,Paper,Operations,South,8065.73,Pending,Yes,Available,26,Emily,CC115
+P1104,INV1104,2024-12-09,S007,SecureNet,IT,Security,Supply Chain,South,12259.49,Overdue,No,Missing,33,Priya,CC115
+P1105,INV1105,2024-05-31,S016,CloudAxis Software,IT,Servers,Supply Chain,North,19365.52,Paid,No,Available,4,John,CC105
+P1106,INV1106,2024-04-24,S009,Apex Industrial,Manufacturing,Machine Parts,Admin,Northeast,36379.57,Paid,Yes,Available,5,Mark,CC109
+P1107,INV1107,2024-06-02,S016,CloudAxis Software,IT,Networking,Procurement,Northeast,24272.72,Paid,Yes,Missing,14,Emily,CC113
+P1108,INV1108,2024-05-28,S030,DataSphere Tech,IT,Security,Finance,East,4825.27,Paid,Yes,Available,17,John,CC112
+P1109,INV1109,2024-08-14,S023,PaperTrail Office,Office Supplies,Paper,HR,South,7610.35,Paid,Yes,Available,7,Emily,CC114
+P1110,INV1110,2024-10-09,S020,EcoMaintain,Facilities,Safety Supplies,Engineering,Midwest,2564.69,Paid,Yes,Available,20,John,CC101
+P1111,INV1111,2024-05-04,S008,GreenSource,Facilities,Safety Supplies,Supply Chain,South,12339.44,Paid,Yes,Available,19,David,CC114
+P1112,INV1112,2024-01-13,S005,NextGen Components,Manufacturing,Packaging,Supply Chain,Northeast,20905.74,Pending,No,Available,25,Nina,CC110
+P1113,INV1113,2024-04-03,S004,FastClean Services,Facilities,Cleaning,Procurement,South,510.46,Paid,Yes,Available,18,Priya,CC110
+P1114,INV1114,2024-10-02,S018,NorthStar Office,Office Supplies,Furniture,Facilities,Northeast,4255.03,Paid,Yes,Available,6,Priya,CC115
+P1115,INV1115,2024-04-14,S027,Peak Freight,Logistics,Ocean Freight,Procurement,West,3572.52,Paid,Yes,Available,18,Leo,CC114
+P1116,INV1116,2024-09-01,S002,Delta Office,Office Supplies,Office Equipment,Procurement,East,6417.19,Paid,Yes,Available,20,Ana,CC111
+P1117,INV1117,2024-01-23,S002,Delta Office,Office Supplies,Breakroom Supplies,Admin,South,1665.45,Paid,Yes,Available,19,Ravi,CC107
+P1118,INV1118,2024-12-03,S024,Titan Fabrication,Manufacturing,Consumables,Procurement,North,12661.18,Pending,Yes,Missing,24,Leo,CC114
+P1119,INV1119,2024-06-07,S013,Metro Furnishings,Office Supplies,Breakroom Supplies,Operations,West,2994.78,Overdue,No,Available,37,David,CC111
+P1120,INV1120,2024-04-15,S016,CloudAxis Software,IT,Software,HR,South,2857.45,Pending,Yes,Available,20,Ravi,CC111
+P1121,INV1121,2024-05-16,S017,PureSpace Cleaning,Facilities,Safety Supplies,Technology,East,5283.15,Paid,Yes,Available,18,Ravi,CC105
+P1122,INV1122,2024-11-30,S014,Vertex Tools,Manufacturing,Tools,Engineering,South,16896.69,Paid,Yes,Available,11,John,CC109
+P1123,INV1123,2024-09-17,S029,FacilityOne Services,Facilities,Utilities,Supply Chain,Midwest,13525.55,Paid,Yes,Missing,12,David,CC105
+P1124,INV1124,2024-10-12,S002,Delta Office,Office Supplies,Paper,Admin,West,5328.45,Paid,Yes,Available,17,Mark,CC115
+P1125,INV1125,2024-11-12,S016,CloudAxis Software,IT,Networking,Facilities,South,7897.98,Paid,No,Available,4,Priya,CC112
+P1126,INV1126,2024-06-14,S005,NextGen Components,Manufacturing,Maintenance Kits,Operations,East,15529.17,Pending,No,Available,11,Ravi,CC104
+P1127,INV1127,2024-06-20,S003,Prime Logistics,Logistics,Warehousing,Supply Chain,Northeast,18418.67,Pending,No,Available,23,David,CC112
+P1128,INV1128,2024-09-09,S025,SafeGrid Security,IT,Servers,Engineering,South,10247.05,Paid,Yes,Available,6,Nina,CC114
+P1129,INV1129,2024-09-09,S028,CoreOffice Depot,Office Supplies,Printers,Operations,Northeast,2518.58,Paid,Yes,Available,18,Priya,CC112
+P1130,INV1130,2024-12-06,S027,Peak Freight,Logistics,Ocean Freight,Facilities,Northeast,3324.62,Pending,Yes,Available,21,Mark,CC109
+P1131,INV1131,2024-05-02,S019,ForgeLine Parts,Manufacturing,Packaging,Operations,West,38301.39,Paid,Yes,Missing,4,Sara,CC106
+P1132,INV1132,2024-04-30,S009,Apex Industrial,Manufacturing,Machine Parts,Procurement,South,2385.81,Paid,Yes,Available,4,Nina,CC102
+P1133,INV1133,2024-11-08,S010,BlueWave Freight,Logistics,Last Mile,Operations,Northeast,28642.94,Pending,No,Available,9,Emily,CC114
+P1134,INV1134,2024-08-20,S010,BlueWave Freight,Logistics,Freight,Admin,Midwest,18825.73,Paid,Yes,Available,3,Ana,CC115
+P1135,INV1135,2024-01-28,S015,RapidRoute Shipping,Logistics,Warehousing,Facilities,Northeast,11063.91,Paid,No,Missing,18,Sara,CC102
+P1136,INV1136,2024-08-05,S009,Apex Industrial,Manufacturing,Consumables,HR,Northeast,25514.92,Paid,Yes,Available,7,John,CC113
+P1137,INV1137,2024-07-14,S022,OmniTech Devices,IT,Accessories,HR,Midwest,21757.97,Pending,Yes,Available,28,Priya,CC115
+P1138,INV1138,2024-07-31,S029,FacilityOne Services,Facilities,Utilities,Finance,East,670.17,Paid,Yes,Available,19,Nina,CC108
+P1139,INV1139,2024-10-22,S005,NextGen Components,Manufacturing,Machine Parts,Admin,West,37471.61,Paid,Yes,Missing,13,Sara,CC112
+P1140,INV1140,2024-10-21,S029,FacilityOne Services,Facilities,Repairs,Operations,North,7840.64,Overdue,No,Available,35,Priya,CC101
+P1141,INV1141,2024-01-24,S009,Apex Industrial,Manufacturing,Consumables,Operations,Northeast,1020.61,Paid,Yes,Available,8,Ana,CC112
+P1142,INV1142,2024-10-17,S029,FacilityOne Services,Facilities,Safety Supplies,Procurement,North,12556.18,Paid,No,Available,9,Ravi,CC115
+P1143,INV1143,2024-02-13,S007,SecureNet,IT,Laptops,HR,West,6306.44,Paid,Yes,Available,15,Sara,CC110
+P1144,INV1144,2024-01-28,S002,Delta Office,Office Supplies,Paper,HR,East,3975.68,Pending,Yes,Available,19,John,CC101
+P1145,INV1145,2024-10-07,S017,PureSpace Cleaning,Facilities,HVAC,Supply Chain,East,12962.54,Paid,Yes,Available,11,Leo,CC106
+P1146,INV1146,2024-08-26,S007,SecureNet,IT,Security,Procurement,South,12049.59,Paid,No,Available,12,Priya,CC106
+P1147,INV1147,2024-03-12,S013,Metro Furnishings,Office Supplies,Paper,Engineering,East,3241.57,Paid,Yes,Available,16,Nina,CC109
+P1148,INV1148,2024-09-21,S016,CloudAxis Software,IT,Laptops,Supply Chain,Northeast,23663.6,Pending,Yes,Available,30,John,CC103
+P1149,INV1149,2024-08-21,S011,TechCore Systems,IT,Networking,Admin,Northeast,22508.33,Paid,Yes,Missing,7,Emily,CC103
+P1150,INV1150,2024-04-28,S003,Prime Logistics,Logistics,Freight,HR,North,4228.28,Paid,Yes,Missing,19,Leo,CC104
+P1151,INV1151,2024-09-11,S027,Peak Freight,Logistics,Freight,HR,Northeast,21825.93,Paid,Yes,Missing,14,Leo,CC113
+P1152,INV1152,2024-08-01,S024,Titan Fabrication,Manufacturing,Consumables,Engineering,Northeast,16578.39,Paid,Yes,Missing,3,Emily,CC105
+P1153,INV1153,2024-09-01,S021,Velocity Cargo,Logistics,Last Mile,Supply Chain,South,2186.04,Paid,No,Available,15,Emily,CC105
+P1154,INV1154,2024-03-05,S025,SafeGrid Security,IT,Laptops,Facilities,Northeast,15641.16,Paid,Yes,Available,17,Emily,CC111
+P1155,INV1155,2024-03-25,S016,CloudAxis Software,IT,Accessories,Engineering,East,14579.49,Paid,Yes,Available,14,Priya,CC106
+P1156,INV1156,2024-05-30,S010,BlueWave Freight,Logistics,Freight,Operations,Midwest,25331.43,Pending,No,Available,31,Leo,CC101
+P1157,INV1157,2024-04-04,S005,NextGen Components,Manufacturing,Tools,Finance,East,31139.02,Overdue,Yes,Available,44,Leo,CC102
+P1158,INV1158,2024-03-22,S007,SecureNet,IT,Cloud Services,Operations,North,7665.51,Pending,Yes,Available,30,John,CC114
+P1159,INV1159,2024-11-08,S009,Apex Industrial,Manufacturing,Machine Parts,Operations,Midwest,2517.86,Paid,Yes,Available,11,Sara,CC105
+P1160,INV1160,2024-12-21,S026,Nova Precision,Manufacturing,Calibration,HR,Midwest,20421.6,Paid,Yes,Missing,13,Emily,CC110
+P1161,INV1161,2024-06-15,S017,PureSpace Cleaning,Facilities,Repairs,Admin,East,3209.15,Pending,Yes,Available,29,Mark,CC102
+P1162,INV1162,2024-05-16,S021,Velocity Cargo,Logistics,Ocean Freight,HR,East,13664.71,Paid,No,Missing,10,Mark,CC115
+P1163,INV1163,2024-07-24,S029,FacilityOne Services,Facilities,Repairs,Procurement,West,1025.21,Paid,Yes,Available,10,Ana,CC104
+P1164,INV1164,2024-05-29,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,Facilities,South,35824.57,Paid,Yes,Available,17,David,CC114
+P1165,INV1165,2024-07-05,S012,EverBright Utilities,Facilities,Maintenance,Operations,Northeast,10881.37,Paid,Yes,Available,12,Emily,CC111
+P1166,INV1166,2024-09-22,S005,NextGen Components,Manufacturing,Consumables,Facilities,Midwest,21565.88,Paid,No,Available,19,Ana,CC106
+P1167,INV1167,2024-10-30,S001,ABC Supplies,IT,Security,Admin,South,10844.58,Paid,Yes,Available,6,Nina,CC114
+P1168,INV1168,2024-11-07,S004,FastClean Services,Facilities,HVAC,HR,North,1628.04,Pending,Yes,Available,27,Priya,CC114
+P1169,INV1169,2024-03-01,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,Technology,Northeast,988.12,Pending,Yes,Available,16,Priya,CC112
+P1170,INV1170,2024-01-03,S023,PaperTrail Office,Office Supplies,Printers,Facilities,West,1500.04,Paid,Yes,Available,5,Ana,CC104
+P1171,INV1171,2024-06-20,S025,SafeGrid Security,IT,Security,HR,South,18887.55,Pending,Yes,Available,15,Leo,CC104
+P1172,INV1172,2024-03-12,S029,FacilityOne Services,Facilities,Maintenance,Procurement,East,4159.13,Paid,Yes,Available,16,Priya,CC107
+P1173,INV1173,2024-10-26,S013,Metro Furnishings,Office Supplies,Paper,Supply Chain,East,5074.45,Paid,Yes,Available,11,John,CC107
+P1174,INV1174,2024-12-09,S030,DataSphere Tech,IT,Laptops,Operations,Midwest,24233.04,Pending,No,Available,28,Sara,CC103
+P1175,INV1175,2024-10-29,S017,PureSpace Cleaning,Facilities,Repairs,Supply Chain,North,6828.89,Paid,Yes,Available,10,Leo,CC113
+P1176,INV1176,2024-02-23,S017,PureSpace Cleaning,Facilities,Safety Supplies,Admin,West,9068.39,Paid,Yes,Available,10,Leo,CC113
+P1177,INV1177,2024-04-27,S024,Titan Fabrication,Manufacturing,Packaging,Engineering,North,8313.27,Paid,No,Available,18,Priya,CC115
+P1178,INV1178,2024-05-11,S021,Velocity Cargo,Logistics,Shipping,Procurement,East,5735.34,Paid,Yes,Available,10,Ravi,CC106
+P1179,INV1179,2024-01-23,S016,CloudAxis Software,IT,Software,Finance,West,6434.46,Paid,Yes,Available,7,Ana,CC107
+P1180,INV1180,2024-09-28,S004,FastClean Services,Facilities,Safety Supplies,Admin,Northeast,6890.09,Paid,Yes,Available,10,Emily,CC110
+P1181,INV1181,2024-01-08,S018,NorthStar Office,Office Supplies,Office Equipment,Procurement,North,6507.34,Paid,Yes,Available,9,Priya,CC101
+P1182,INV1182,2024-02-08,S001,ABC Supplies,IT,Cloud Services,Procurement,Northeast,4697.82,Paid,Yes,Available,20,Sara,CC107
+P1183,INV1183,2024-12-14,S010,BlueWave Freight,Logistics,Shipping,Facilities,East,34884.21,Pending,No,Available,10,Leo,CC101
+P1184,INV1184,2024-11-15,S025,SafeGrid Security,IT,Servers,Finance,Midwest,20645.72,Paid,Yes,Available,8,Mark,CC115
+P1185,INV1185,2024-01-31,S017,PureSpace Cleaning,Facilities,Utilities,Technology,North,7594.43,Paid,Yes,Available,7,Sara,CC114
+P1186,INV1186,2024-05-28,S005,NextGen Components,Manufacturing,Machine Parts,Engineering,Midwest,39198.81,Paid,Yes,Available,7,David,CC112
+P1187,INV1187,2024-01-18,S027,Peak Freight,Logistics,Shipping,Facilities,West,27054.79,Pending,Yes,Available,21,Sara,CC111
+P1188,INV1188,2024-11-26,S001,ABC Supplies,IT,Software,Finance,East,25512.62,Paid,Yes,Available,11,Ravi,CC111
+P1189,INV1189,2024-11-06,S011,TechCore Systems,IT,Monitors,Admin,North,4912.01,Paid,No,Missing,17,Ana,CC101
+P1190,INV1190,2024-06-06,S021,Velocity Cargo,Logistics,Warehousing,Operations,West,33272.06,Paid,Yes,Available,4,Nina,CC115
+P1191,INV1191,2024-03-07,S005,NextGen Components,Manufacturing,Packaging,HR,Northeast,27617.68,Paid,Yes,Available,10,Nina,CC111
+P1192,INV1192,2024-01-18,S011,TechCore Systems,IT,Security,Technology,South,8446.42,Paid,Yes,Available,6,Ravi,CC103
+P1193,INV1193,2024-08-17,S009,Apex Industrial,Manufacturing,Calibration,Supply Chain,Midwest,34674.52,Paid,Yes,Available,3,David,CC102
+P1194,INV1194,2024-01-23,S016,CloudAxis Software,IT,Laptops,Procurement,South,22465.1,Paid,Yes,Available,19,Sara,CC104
+P1195,INV1195,2024-03-01,S019,ForgeLine Parts,Manufacturing,Consumables,Facilities,West,24739.19,Paid,No,Missing,12,Sara,CC115
+P1196,INV1196,2024-03-26,S022,OmniTech Devices,IT,Accessories,Admin,North,8379.92,Paid,No,Available,12,Nina,CC101
+P1197,INV1197,2024-03-07,S024,Titan Fabrication,Manufacturing,Tools,Admin,West,4582.77,Pending,No,Available,23,David,CC101
+P1198,INV1198,2024-05-15,S024,Titan Fabrication,Manufacturing,Packaging,Procurement,South,23967.22,Paid,No,Missing,18,Mark,CC104
+P1199,INV1199,2024-12-09,S017,PureSpace Cleaning,Facilities,Cleaning,Operations,West,4654.57,Paid,Yes,Available,7,Sara,CC104
+P1200,INV1200,2024-02-09,S006,OfficePro,Office Supplies,Paper,Admin,Midwest,1338.2,Paid,Yes,Available,6,Emily,CC104
+P1201,INV1201,2024-08-02,S003,Prime Logistics,Logistics,Ocean Freight,Facilities,South,27651.68,Paid,No,Missing,3,Mark,CC112
+P1202,INV1202,2024-04-03,S019,ForgeLine Parts,Manufacturing,Consumables,Supply Chain,Northeast,33038.33,Paid,No,Available,20,Leo,CC114
+P1203,INV1203,2024-09-22,S024,Titan Fabrication,Manufacturing,Consumables,Operations,North,1386.29,Paid,Yes,Available,10,Priya,CC114
+P1204,INV1204,2024-01-30,S010,BlueWave Freight,Logistics,Warehousing,Technology,Northeast,29575.22,Overdue,Yes,Available,39,John,CC101
+P1205,INV1205,2024-01-26,S013,Metro Furnishings,Office Supplies,Office Equipment,Operations,Midwest,4871.07,Pending,Yes,Available,20,Ana,CC103
+P1206,INV1206,2024-06-26,S026,Nova Precision,Manufacturing,Calibration,Technology,Northeast,14605.15,Paid,Yes,Available,12,Emily,CC108
+P1207,INV1207,2024-02-02,S026,Nova Precision,Manufacturing,Consumables,HR,Midwest,21253.1,Overdue,Yes,Available,33,David,CC105
+P1208,INV1208,2024-11-06,S022,OmniTech Devices,IT,Accessories,Procurement,Midwest,12017.91,Pending,Yes,Available,16,Ana,CC101
+P1209,INV1209,2024-08-02,S018,NorthStar Office,Office Supplies,Printers,Procurement,South,2632.79,Pending,Yes,Available,31,Nina,CC104
+P1210,INV1210,2024-04-10,S017,PureSpace Cleaning,Facilities,Cleaning,Procurement,North,11731.63,Paid,Yes,Available,9,Priya,CC107
+P1211,INV1211,2024-05-17,S007,SecureNet,IT,Software,Operations,Midwest,24186.44,Paid,Yes,Available,10,Emily,CC109
+P1212,INV1212,2024-01-03,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,Finance,West,6813.01,Paid,Yes,Available,15,John,CC112
+P1213,INV1213,2024-10-10,S022,OmniTech Devices,IT,Servers,Procurement,East,6969.68,Paid,Yes,Available,20,Nina,CC111
+P1214,INV1214,2024-02-13,S021,Velocity Cargo,Logistics,Shipping,Finance,West,18532.78,Paid,No,Available,18,David,CC103
+P1215,INV1215,2024-08-04,S004,FastClean Services,Facilities,HVAC,Facilities,West,1528.53,Paid,Yes,Available,11,Ravi,CC108
+P1216,INV1216,2024-10-27,S017,PureSpace Cleaning,Facilities,HVAC,Operations,Northeast,4533.25,Paid,Yes,Available,19,Ana,CC101
+P1217,INV1217,2024-04-22,S012,EverBright Utilities,Facilities,Cleaning,HR,North,13774.1,Paid,Yes,Available,15,Priya,CC102
+P1218,INV1218,2024-04-10,S017,PureSpace Cleaning,Facilities,Maintenance,Operations,Midwest,6142.62,Paid,Yes,Available,19,Ana,CC107
+P1219,INV1219,2024-10-12,S018,NorthStar Office,Office Supplies,Breakroom Supplies,Finance,West,241.71,Paid,Yes,Available,5,Ana,CC103
+P1220,INV1220,2024-05-29,S012,EverBright Utilities,Facilities,Utilities,Engineering,East,8948.01,Paid,Yes,Available,20,John,CC111
+P1221,INV1221,2024-09-20,S012,EverBright Utilities,Facilities,Utilities,Procurement,West,12562.68,Paid,Yes,Available,9,Emily,CC109
+P1222,INV1222,2024-10-12,S013,Metro Furnishings,Office Supplies,Paper,Technology,West,2680.59,Paid,Yes,Available,11,Ana,CC111
+P1223,INV1223,2024-02-11,S012,EverBright Utilities,Facilities,Cleaning,Facilities,West,4124.41,Pending,Yes,Available,7,Ravi,CC105
+P1224,INV1224,2024-08-22,S019,ForgeLine Parts,Manufacturing,Tools,Procurement,Northeast,1561.3,Paid,Yes,Available,15,Sara,CC112
+P1225,INV1225,2024-08-05,S026,Nova Precision,Manufacturing,Consumables,Supply Chain,East,4612.86,Paid,Yes,Available,10,Mark,CC107
+P1226,INV1226,2024-06-18,S001,ABC Supplies,IT,Monitors,Procurement,West,22551.43,Pending,Yes,Missing,14,David,CC114
+P1227,INV1227,2024-07-17,S009,Apex Industrial,Manufacturing,Tools,Procurement,West,7681.87,Paid,Yes,Available,3,Sara,CC104
+P1228,INV1228,2024-11-27,S016,CloudAxis Software,IT,Networking,Engineering,North,7725.85,Paid,No,Available,20,David,CC107
+P1229,INV1229,2024-12-03,S017,PureSpace Cleaning,Facilities,Repairs,Operations,Northeast,5415.04,Paid,Yes,Available,8,John,CC105
+P1230,INV1230,2024-02-21,S018,NorthStar Office,Office Supplies,Stationery,Admin,West,3892.25,Paid,Yes,Available,3,Sara,CC111
+P1231,INV1231,2024-06-14,S022,OmniTech Devices,IT,Accessories,Admin,North,3277.19,Paid,Yes,Available,5,Leo,CC102
+P1232,INV1232,2024-09-07,S004,FastClean Services,Facilities,Repairs,Procurement,Midwest,11201.0,Paid,Yes,Available,9,Leo,CC111
+P1233,INV1233,2024-02-15,S027,Peak Freight,Logistics,Shipping,Supply Chain,Midwest,16826.26,Paid,Yes,Available,18,Emily,CC113
+P1234,INV1234,2024-05-27,S022,OmniTech Devices,IT,Security,Facilities,East,17892.71,Overdue,Yes,Missing,36,Ravi,CC108
+P1235,INV1235,2024-01-19,S030,DataSphere Tech,IT,Cloud Services,Procurement,Northeast,13147.26,Paid,Yes,Available,11,Ravi,CC103
+P1236,INV1236,2024-06-14,S008,GreenSource,Facilities,Cleaning,Supply Chain,North,7732.07,Paid,Yes,Available,7,Ravi,CC112
+P1237,INV1237,2024-05-22,S004,FastClean Services,Facilities,HVAC,Operations,South,6645.64,Paid,Yes,Available,11,Ana,CC106
+P1238,INV1238,2024-06-24,S022,OmniTech Devices,IT,Cloud Services,HR,South,18652.35,Paid,No,Missing,16,Sara,CC110
+P1239,INV1239,2024-07-08,S014,Vertex Tools,Manufacturing,Machine Parts,Operations,North,9139.72,Paid,Yes,Available,6,Ana,CC111
+P1240,INV1240,2024-09-05,S007,SecureNet,IT,Security,Technology,Northeast,25038.83,Paid,No,Available,5,Leo,CC113
+P1241,INV1241,2024-10-11,S015,RapidRoute Shipping,Logistics,Express Delivery,Admin,North,16159.08,Paid,No,Available,11,Ravi,CC102
+P1242,INV1242,2024-08-24,S010,BlueWave Freight,Logistics,Ocean Freight,Supply Chain,South,6457.83,Paid,Yes,Available,13,Nina,CC105
+P1243,INV1243,2024-08-26,S017,PureSpace Cleaning,Facilities,Maintenance,Finance,West,6012.95,Paid,Yes,Available,5,Ravi,CC107
+P1244,INV1244,2024-12-13,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,HR,South,5518.03,Paid,Yes,Available,19,Nina,CC104
+P1245,INV1245,2024-02-02,S021,Velocity Cargo,Logistics,Shipping,Technology,North,7284.8,Paid,No,Available,9,Mark,CC110
+P1246,INV1246,2024-06-23,S017,PureSpace Cleaning,Facilities,Repairs,HR,North,11636.71,Pending,Yes,Missing,24,Ravi,CC110
+P1247,INV1247,2024-05-10,S013,Metro Furnishings,Office Supplies,Office Equipment,Engineering,Northeast,3944.88,Pending,Yes,Available,8,Ana,CC105
+P1248,INV1248,2024-10-28,S012,EverBright Utilities,Facilities,Safety Supplies,Engineering,East,465.3,Paid,Yes,Available,12,Leo,CC110
+P1249,INV1249,2024-10-15,S001,ABC Supplies,IT,Servers,Technology,Midwest,12973.18,Paid,Yes,Available,18,Emily,CC112
+P1250,INV1250,2024-04-17,S022,OmniTech Devices,IT,Accessories,Facilities,East,24154.33,Pending,Yes,Available,24,John,CC104
+P1251,INV1251,2024-04-07,S005,NextGen Components,Manufacturing,Packaging,Finance,South,25392.6,Overdue,Yes,Available,46,Leo,CC112
+P1252,INV1252,2024-04-18,S015,RapidRoute Shipping,Logistics,Freight,Engineering,East,9576.53,Paid,No,Available,5,David,CC112
+P1253,INV1253,2024-11-01,S018,NorthStar Office,Office Supplies,Furniture,Finance,North,8460.05,Paid,Yes,Available,10,Nina,CC103
+P1254,INV1254,2024-07-04,S017,PureSpace Cleaning,Facilities,Cleaning,Technology,North,6835.54,Overdue,Yes,Available,34,David,CC102
+P1255,INV1255,2024-05-06,S022,OmniTech Devices,IT,Laptops,HR,South,25624.65,Paid,Yes,Available,4,Priya,CC114
+P1256,INV1256,2024-09-28,S002,Delta Office,Office Supplies,Printers,Facilities,Midwest,5667.01,Paid,Yes,Available,9,David,CC102
+P1257,INV1257,2024-11-29,S030,DataSphere Tech,IT,Software,Facilities,South,27481.96,Paid,Yes,Available,19,Mark,CC109
+P1258,INV1258,2024-02-07,S012,EverBright Utilities,Facilities,Utilities,Technology,Northeast,2552.81,Paid,Yes,Available,7,Emily,CC105
+P1259,INV1259,2024-04-17,S002,Delta Office,Office Supplies,Paper,Technology,Northeast,577.38,Paid,Yes,Available,6,Emily,CC114
+P1260,INV1260,2024-05-18,S008,GreenSource,Facilities,Utilities,Admin,Northeast,13372.29,Paid,Yes,Missing,20,Nina,CC104
+P1261,INV1261,2024-05-29,S025,SafeGrid Security,IT,Accessories,Procurement,Midwest,6475.96,Paid,Yes,Available,9,Ana,CC101
+P1262,INV1262,2024-04-07,S016,CloudAxis Software,IT,Servers,Admin,North,16951.59,Overdue,Yes,Available,37,Ana,CC102
+P1263,INV1263,2024-08-12,S004,FastClean Services,Facilities,HVAC,Technology,East,10126.08,Paid,Yes,Available,14,Priya,CC105
+P1264,INV1264,2024-10-14,S025,SafeGrid Security,IT,Laptops,HR,East,3147.65,Paid,No,Available,18,Ravi,CC106
+P1265,INV1265,2024-09-11,S011,TechCore Systems,IT,Accessories,HR,South,14178.67,Pending,No,Available,22,Ravi,CC104
+P1266,INV1266,2024-05-03,S030,DataSphere Tech,IT,Accessories,Engineering,South,21155.34,Paid,No,Available,11,John,CC110
+P1267,INV1267,2024-03-22,S029,FacilityOne Services,Facilities,HVAC,Procurement,South,6401.81,Paid,No,Available,11,Mark,CC108
+P1268,INV1268,2024-03-27,S029,FacilityOne Services,Facilities,HVAC,Facilities,Northeast,10494.07,Paid,Yes,Available,15,Leo,CC110
+P1269,INV1269,2024-10-02,S022,OmniTech Devices,IT,Laptops,Operations,East,2708.19,Paid,Yes,Available,7,Ana,CC103
+P1270,INV1270,2024-05-13,S021,Velocity Cargo,Logistics,Express Delivery,Engineering,North,31649.88,Paid,No,Missing,6,Nina,CC113
+P1271,INV1271,2024-12-13,S018,NorthStar Office,Office Supplies,Furniture,Facilities,Northeast,5116.34,Paid,Yes,Available,14,Emily,CC110
+P1272,INV1272,2024-01-16,S030,DataSphere Tech,IT,Laptops,Procurement,Northeast,17453.93,Paid,Yes,Available,16,Emily,CC110
+P1273,INV1273,2024-06-10,S023,PaperTrail Office,Office Supplies,Office Equipment,Supply Chain,East,2630.35,Paid,Yes,Available,5,Leo,CC113
+P1274,INV1274,2024-04-02,S007,SecureNet,IT,Cloud Services,Procurement,Northeast,16874.64,Overdue,Yes,Available,54,Ana,CC115
+P1275,INV1275,2024-06-25,S001,ABC Supplies,IT,Accessories,HR,East,13536.65,Paid,Yes,Available,6,John,CC104
+P1276,INV1276,2024-10-10,S013,Metro Furnishings,Office Supplies,Office Equipment,Operations,West,6545.0,Paid,Yes,Available,20,Mark,CC113
+P1277,INV1277,2024-11-01,S008,GreenSource,Facilities,Repairs,Engineering,Northeast,2408.79,Paid,Yes,Available,16,Ana,CC101
+P1278,INV1278,2024-10-13,S014,Vertex Tools,Manufacturing,Calibration,Procurement,East,12998.21,Pending,Yes,Available,23,Nina,CC105
+P1279,INV1279,2024-01-07,S027,Peak Freight,Logistics,Shipping,Technology,East,23232.98,Paid,Yes,Available,17,David,CC109
+P1280,INV1280,2024-07-12,S018,NorthStar Office,Office Supplies,Paper,Supply Chain,Midwest,6859.22,Paid,Yes,Available,4,David,CC114
+P1281,INV1281,2024-05-12,S009,Apex Industrial,Manufacturing,Machine Parts,Engineering,West,26580.26,Paid,Yes,Available,8,Mark,CC114
+P1282,INV1282,2024-04-11,S009,Apex Industrial,Manufacturing,Consumables,Admin,West,13391.07,Paid,Yes,Available,7,Mark,CC114
+P1283,INV1283,2024-05-06,S030,DataSphere Tech,IT,Laptops,Procurement,Midwest,11025.21,Paid,No,Available,11,Ravi,CC115
+P1284,INV1284,2024-02-09,S003,Prime Logistics,Logistics,Express Delivery,Facilities,Northeast,14877.1,Paid,No,Available,10,Ravi,CC115
+P1285,INV1285,2024-03-11,S007,SecureNet,IT,Monitors,HR,West,16116.5,Pending,No,Missing,13,Nina,CC115
+P1286,INV1286,2024-03-09,S025,SafeGrid Security,IT,Laptops,Engineering,North,21459.24,Pending,No,Available,23,Priya,CC114
+P1287,INV1287,2024-07-30,S017,PureSpace Cleaning,Facilities,Repairs,Supply Chain,Midwest,8453.88,Pending,Yes,Available,25,Ana,CC108
+P1288,INV1288,2024-12-08,S024,Titan Fabrication,Manufacturing,Machine Parts,Procurement,North,20089.06,Paid,Yes,Available,20,Sara,CC107
+P1289,INV1289,2024-08-05,S006,OfficePro,Office Supplies,Stationery,Supply Chain,West,3915.95,Paid,Yes,Available,3,John,CC114
+P1290,INV1290,2024-04-02,S001,ABC Supplies,IT,Monitors,Facilities,North,12355.52,Paid,Yes,Available,9,Ravi,CC111
+P1291,INV1291,2024-06-27,S009,Apex Industrial,Manufacturing,Packaging,Technology,East,4837.72,Pending,Yes,Available,18,Priya,CC105
+P1292,INV1292,2024-09-25,S027,Peak Freight,Logistics,Last Mile,Supply Chain,West,4322.14,Paid,Yes,Available,20,Nina,CC114
+P1293,INV1293,2024-08-12,S002,Delta Office,Office Supplies,Stationery,Engineering,Midwest,4800.33,Pending,Yes,Available,14,Sara,CC103
+P1294,INV1294,2024-03-02,S004,FastClean Services,Facilities,Cleaning,Finance,Northeast,13810.78,Paid,Yes,Available,16,Ravi,CC106
+P1295,INV1295,2024-11-28,S019,ForgeLine Parts,Manufacturing,Calibration,Engineering,East,34059.17,Overdue,Yes,Available,32,Nina,CC113
+P1296,INV1296,2024-08-19,S030,DataSphere Tech,IT,Security,Engineering,South,13433.38,Pending,Yes,Available,29,Emily,CC103
+P1297,INV1297,2024-03-12,S029,FacilityOne Services,Facilities,HVAC,Finance,South,12979.52,Paid,No,Available,14,David,CC115
+P1298,INV1298,2024-06-14,S019,ForgeLine Parts,Manufacturing,Calibration,Technology,East,28331.28,Paid,No,Available,12,Leo,CC108
+P1299,INV1299,2024-05-14,S026,Nova Precision,Manufacturing,Calibration,Supply Chain,East,9433.28,Pending,Yes,Available,27,Mark,CC110
+P1300,INV1300,2024-02-10,S023,PaperTrail Office,Office Supplies,Stationery,HR,East,7566.9,Pending,Yes,Available,16,Emily,CC101
+P1301,INV1301,2024-01-08,S019,ForgeLine Parts,Manufacturing,Tools,Technology,Northeast,4104.0,Paid,Yes,Available,7,Ana,CC101
+P1302,INV1302,2024-06-21,S025,SafeGrid Security,IT,Security,Supply Chain,East,15575.54,Pending,No,Available,20,Nina,CC114
+P1303,INV1303,2024-12-29,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,HR,Northeast,28373.06,Paid,No,Available,18,John,CC111
+P1304,INV1304,2024-05-09,S019,ForgeLine Parts,Manufacturing,Consumables,HR,Midwest,23065.68,Paid,Yes,Available,8,David,CC102
+P1305,INV1305,2024-07-17,S016,CloudAxis Software,IT,Security,Facilities,West,15624.44,Paid,Yes,Available,19,Mark,CC115
+P1306,INV1306,2024-08-10,S021,Velocity Cargo,Logistics,Express Delivery,Facilities,Northeast,20195.41,Paid,Yes,Available,15,Emily,CC110
+P1307,INV1307,2024-10-22,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,Admin,Midwest,191.08,Paid,Yes,Available,5,David,CC115
+P1308,INV1308,2024-05-08,S009,Apex Industrial,Manufacturing,Packaging,Finance,North,11049.37,Paid,Yes,Missing,17,Emily,CC105
+P1309,INV1309,2024-07-17,S027,Peak Freight,Logistics,Freight,Admin,Northeast,27826.39,Paid,Yes,Available,15,Ravi,CC104
+P1310,INV1310,2024-11-01,S010,BlueWave Freight,Logistics,Freight,Admin,Midwest,3358.24,Paid,No,Available,4,Emily,CC106
+P1311,INV1311,2024-05-16,S010,BlueWave Freight,Logistics,Shipping,Operations,North,10194.27,Pending,No,Missing,22,Mark,CC109
+P1312,INV1312,2024-07-28,S002,Delta Office,Office Supplies,Stationery,Technology,East,88.56,Pending,Yes,Available,11,Mark,CC106
+P1313,INV1313,2024-09-16,S028,CoreOffice Depot,Office Supplies,Office Equipment,Supply Chain,Northeast,3595.24,Paid,Yes,Available,8,Mark,CC101
+P1314,INV1314,2024-12-17,S021,Velocity Cargo,Logistics,Express Delivery,Supply Chain,East,14012.07,Paid,No,Available,17,Priya,CC113
+P1315,INV1315,2024-04-05,S006,OfficePro,Office Supplies,Printers,Technology,Midwest,4702.1,Paid,Yes,Available,7,Ravi,CC104
+P1316,INV1316,2024-11-01,S017,PureSpace Cleaning,Facilities,Cleaning,Supply Chain,East,9098.65,Paid,Yes,Available,12,Mark,CC107
+P1317,INV1317,2024-03-22,S009,Apex Industrial,Manufacturing,Tools,Finance,West,30759.93,Paid,Yes,Available,12,Ravi,CC102
+P1318,INV1318,2024-06-10,S021,Velocity Cargo,Logistics,Shipping,Admin,North,13788.14,Paid,No,Missing,12,Nina,CC115
+P1319,INV1319,2024-04-14,S026,Nova Precision,Manufacturing,Machine Parts,HR,Northeast,36006.83,Overdue,Yes,Available,29,Mark,CC115
+P1320,INV1320,2024-09-06,S023,PaperTrail Office,Office Supplies,Paper,Admin,East,665.76,Paid,Yes,Available,4,David,CC115
+P1321,INV1321,2024-04-12,S017,PureSpace Cleaning,Facilities,HVAC,HR,South,8702.7,Paid,Yes,Available,7,John,CC107
+P1322,INV1322,2024-05-01,S004,FastClean Services,Facilities,Repairs,Engineering,West,3746.07,Pending,No,Available,23,John,CC107
+P1323,INV1323,2024-10-10,S004,FastClean Services,Facilities,HVAC,Admin,Northeast,262.74,Paid,Yes,Available,12,Priya,CC109
+P1324,INV1324,2024-04-30,S003,Prime Logistics,Logistics,Warehousing,HR,North,7154.58,Paid,Yes,Available,11,David,CC110
+P1325,INV1325,2024-04-11,S028,CoreOffice Depot,Office Supplies,Printers,Supply Chain,East,1944.1,Paid,Yes,Available,5,Ravi,CC110
+P1326,INV1326,2024-01-20,S012,EverBright Utilities,Facilities,Repairs,Facilities,Northeast,10914.76,Paid,Yes,Missing,13,Priya,CC102
+P1327,INV1327,2024-08-01,S026,Nova Precision,Manufacturing,Maintenance Kits,Admin,North,27966.86,Pending,Yes,Available,11,Nina,CC105
+P1328,INV1328,2024-05-14,S024,Titan Fabrication,Manufacturing,Machine Parts,Finance,North,34556.32,Pending,Yes,Available,19,Ana,CC110
+P1329,INV1329,2024-03-09,S012,EverBright Utilities,Facilities,Cleaning,Finance,West,8974.35,Pending,Yes,Available,11,David,CC104
+P1330,INV1330,2024-04-01,S009,Apex Industrial,Manufacturing,Tools,Operations,East,17289.07,Paid,Yes,Available,19,Ana,CC113
+P1331,INV1331,2024-01-11,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,Procurement,East,21417.11,Paid,No,Missing,4,Ravi,CC104
+P1332,INV1332,2024-10-27,S001,ABC Supplies,IT,Software,Engineering,South,13127.74,Paid,Yes,Available,13,Sara,CC113
+P1333,INV1333,2024-03-05,S014,Vertex Tools,Manufacturing,Tools,Finance,Northeast,34057.13,Paid,Yes,Available,13,Emily,CC101
+P1334,INV1334,2024-04-04,S025,SafeGrid Security,IT,Software,Supply Chain,South,11120.25,Paid,Yes,Available,14,Priya,CC105
+P1335,INV1335,2024-11-18,S019,ForgeLine Parts,Manufacturing,Maintenance Kits,Procurement,East,39195.24,Paid,Yes,Available,12,Emily,CC105
+P1336,INV1336,2024-08-13,S021,Velocity Cargo,Logistics,Last Mile,Engineering,Midwest,5893.03,Paid,No,Available,5,Mark,CC114
+P1337,INV1337,2024-05-19,S021,Velocity Cargo,Logistics,Warehousing,Operations,West,34635.32,Paid,No,Available,3,Emily,CC114
+P1338,INV1338,2024-12-10,S001,ABC Supplies,IT,Monitors,Supply Chain,West,9074.87,Pending,Yes,Available,26,Mark,CC109
+P1339,INV1339,2024-11-16,S029,FacilityOne Services,Facilities,Maintenance,Supply Chain,East,13050.0,Paid,Yes,Available,12,Priya,CC106
+P1340,INV1340,2024-12-27,S022,OmniTech Devices,IT,Accessories,Admin,North,9816.13,Paid,Yes,Available,17,Emily,CC110
+P1341,INV1341,2024-06-06,S002,Delta Office,Office Supplies,Printers,Supply Chain,Midwest,1058.39,Paid,Yes,Available,15,Emily,CC114
+P1342,INV1342,2024-08-27,S030,DataSphere Tech,IT,Cloud Services,Engineering,Northeast,27224.69,Paid,Yes,Missing,3,Emily,CC103
+P1343,INV1343,2024-05-09,S016,CloudAxis Software,IT,Servers,Operations,South,19247.32,Paid,No,Available,17,Ravi,CC105
+P1344,INV1344,2024-06-29,S009,Apex Industrial,Manufacturing,Consumables,Engineering,North,40313.35,Paid,No,Missing,13,Leo,CC104
+P1345,INV1345,2024-10-12,S010,BlueWave Freight,Logistics,Freight,Engineering,West,14159.11,Paid,No,Available,18,Ravi,CC111
+P1346,INV1346,2024-12-18,S024,Titan Fabrication,Manufacturing,Machine Parts,HR,Northeast,40771.64,Paid,No,Available,4,Mark,CC110
+P1347,INV1347,2024-07-13,S015,RapidRoute Shipping,Logistics,Warehousing,Admin,South,30331.01,Paid,Yes,Available,5,Emily,CC108
+P1348,INV1348,2024-04-26,S025,SafeGrid Security,IT,Security,Finance,Northeast,12219.86,Paid,Yes,Available,16,Ana,CC115
+P1349,INV1349,2024-01-22,S009,Apex Industrial,Manufacturing,Calibration,HR,South,13768.54,Paid,Yes,Available,13,John,CC103
+P1350,INV1350,2024-06-09,S003,Prime Logistics,Logistics,Warehousing,HR,West,4385.06,Paid,Yes,Available,11,Ana,CC111
+P1351,INV1351,2024-10-23,S007,SecureNet,IT,Security,Facilities,North,9725.88,Paid,No,Available,9,Priya,CC103
+P1352,INV1352,2024-07-06,S009,Apex Industrial,Manufacturing,Tools,Admin,North,4902.29,Pending,No,Available,16,David,CC105
+P1353,INV1353,2024-11-20,S005,NextGen Components,Manufacturing,Maintenance Kits,Finance,Midwest,2520.61,Paid,Yes,Available,11,David,CC111
+P1354,INV1354,2024-04-23,S016,CloudAxis Software,IT,Networking,Finance,North,20055.69,Paid,Yes,Missing,17,Ravi,CC114
+P1355,INV1355,2024-04-18,S003,Prime Logistics,Logistics,Freight,Supply Chain,West,18517.51,Pending,No,Available,28,Nina,CC101
+P1356,INV1356,2024-05-19,S011,TechCore Systems,IT,Software,Technology,Northeast,25737.63,Paid,Yes,Available,3,John,CC109
+P1357,INV1357,2024-08-29,S009,Apex Industrial,Manufacturing,Consumables,Technology,North,5331.83,Paid,Yes,Available,18,Priya,CC104
+P1358,INV1358,2024-10-12,S027,Peak Freight,Logistics,Ocean Freight,Finance,Northeast,22539.39,Pending,Yes,Available,31,Mark,CC109
+P1359,INV1359,2024-12-11,S021,Velocity Cargo,Logistics,Ocean Freight,Facilities,West,4766.48,Paid,Yes,Available,3,Mark,CC115
+P1360,INV1360,2024-07-09,S022,OmniTech Devices,IT,Monitors,Supply Chain,North,11533.01,Paid,Yes,Available,20,John,CC114
+P1361,INV1361,2024-12-06,S015,RapidRoute Shipping,Logistics,Ocean Freight,Finance,West,24091.38,Paid,No,Available,13,Emily,CC104
+P1362,INV1362,2024-05-30,S015,RapidRoute Shipping,Logistics,Ocean Freight,HR,West,24544.57,Paid,Yes,Available,3,Leo,CC104
+P1363,INV1363,2024-06-24,S004,FastClean Services,Facilities,Maintenance,Facilities,North,7841.2,Paid,Yes,Available,14,David,CC104
+P1364,INV1364,2024-07-09,S010,BlueWave Freight,Logistics,Shipping,HR,Northeast,29620.99,Paid,No,Available,7,Mark,CC104
+P1365,INV1365,2024-11-07,S023,PaperTrail Office,Office Supplies,Office Equipment,HR,South,258.68,Paid,Yes,Available,6,Ana,CC113
+P1366,INV1366,2024-09-18,S019,ForgeLine Parts,Manufacturing,Tools,Supply Chain,West,3801.15,Overdue,Yes,Available,41,Ravi,CC113
+P1367,INV1367,2024-10-09,S015,RapidRoute Shipping,Logistics,Express Delivery,Operations,South,13555.05,Pending,Yes,Available,37,John,CC106
+P1368,INV1368,2024-09-13,S012,EverBright Utilities,Facilities,Safety Supplies,Technology,South,11536.87,Pending,Yes,Available,14,Sara,CC105
+P1369,INV1369,2024-04-23,S008,GreenSource,Facilities,Safety Supplies,Finance,West,1385.65,Paid,Yes,Available,19,Ravi,CC108
+P1370,INV1370,2024-03-31,S019,ForgeLine Parts,Manufacturing,Machine Parts,Procurement,West,16613.77,Pending,Yes,Missing,14,Ravi,CC108
+P1371,INV1371,2024-01-16,S028,CoreOffice Depot,Office Supplies,Paper,Engineering,East,4963.13,Paid,Yes,Available,4,Emily,CC106
+P1372,INV1372,2024-06-21,S024,Titan Fabrication,Manufacturing,Packaging,Operations,North,14323.97,Paid,Yes,Available,8,Mark,CC105
+P1373,INV1373,2024-02-04,S009,Apex Industrial,Manufacturing,Packaging,Facilities,East,37908.13,Paid,Yes,Available,5,Emily,CC103
+P1374,INV1374,2024-04-16,S026,Nova Precision,Manufacturing,Machine Parts,Admin,Northeast,9905.43,Overdue,Yes,Available,53,Emily,CC104
+P1375,INV1375,2024-11-28,S030,DataSphere Tech,IT,Laptops,Supply Chain,Midwest,6280.03,Paid,Yes,Available,8,Mark,CC113
+P1376,INV1376,2024-06-09,S008,GreenSource,Facilities,Cleaning,Finance,West,12607.89,Paid,Yes,Available,11,David,CC114
+P1377,INV1377,2024-07-27,S012,EverBright Utilities,Facilities,Repairs,Admin,Northeast,6788.97,Overdue,Yes,Available,29,Priya,CC113
+P1378,INV1378,2024-10-11,S016,CloudAxis Software,IT,Networking,Engineering,West,23693.14,Paid,Yes,Available,4,Emily,CC106
+P1379,INV1379,2024-02-04,S005,NextGen Components,Manufacturing,Machine Parts,Supply Chain,West,6833.57,Paid,Yes,Available,17,David,CC112
+P1380,INV1380,2024-07-30,S004,FastClean Services,Facilities,Repairs,HR,East,12970.77,Paid,Yes,Missing,16,Nina,CC112
+P1381,INV1381,2024-02-28,S026,Nova Precision,Manufacturing,Packaging,Supply Chain,Northeast,28772.94,Overdue,Yes,Available,52,David,CC103
+P1382,INV1382,2024-05-21,S011,TechCore Systems,IT,Software,Procurement,North,14469.82,Paid,Yes,Available,9,Ana,CC107
+P1383,INV1383,2024-11-04,S006,OfficePro,Office Supplies,Paper,HR,North,6421.63,Paid,Yes,Available,17,Ana,CC104
+P1384,INV1384,2024-01-14,S030,DataSphere Tech,IT,Monitors,Supply Chain,South,22472.82,Overdue,Yes,Missing,33,Nina,CC108
+P1385,INV1385,2024-03-13,S005,NextGen Components,Manufacturing,Maintenance Kits,Supply Chain,Midwest,27778.22,Paid,Yes,Available,5,Ana,CC110
+P1386,INV1386,2024-12-16,S010,BlueWave Freight,Logistics,Last Mile,Facilities,North,13790.33,Paid,No,Available,5,David,CC112
+P1387,INV1387,2024-03-21,S029,FacilityOne Services,Facilities,Safety Supplies,Engineering,Midwest,1646.15,Pending,Yes,Available,29,David,CC115
+P1388,INV1388,2024-01-08,S017,PureSpace Cleaning,Facilities,Repairs,Finance,Midwest,6969.6,Paid,Yes,Available,12,Ana,CC101
+P1389,INV1389,2024-09-17,S027,Peak Freight,Logistics,Warehousing,Finance,North,21081.8,Paid,Yes,Available,14,John,CC109
+P1390,INV1390,2024-08-31,S021,Velocity Cargo,Logistics,Shipping,Admin,South,27768.83,Paid,No,Missing,19,Sara,CC105
+P1391,INV1391,2024-03-26,S023,PaperTrail Office,Office Supplies,Paper,Procurement,Northeast,7278.71,Overdue,Yes,Available,33,Leo,CC112
+P1392,INV1392,2024-09-19,S008,GreenSource,Facilities,HVAC,Operations,South,4110.54,Paid,No,Available,18,Nina,CC114
+P1393,INV1393,2024-06-28,S014,Vertex Tools,Manufacturing,Packaging,HR,West,2747.04,Paid,Yes,Available,19,Leo,CC114
+P1394,INV1394,2024-02-20,S009,Apex Industrial,Manufacturing,Tools,Supply Chain,East,21837.33,Paid,Yes,Available,9,Sara,CC111
+P1395,INV1395,2024-05-20,S026,Nova Precision,Manufacturing,Maintenance Kits,Operations,South,31399.03,Paid,Yes,Available,8,David,CC113
+P1396,INV1396,2024-07-03,S030,DataSphere Tech,IT,Servers,HR,North,5303.25,Paid,No,Available,3,Priya,CC114
+P1397,INV1397,2024-09-08,S024,Titan Fabrication,Manufacturing,Calibration,Admin,East,2911.88,Paid,No,Available,20,Emily,CC111
+P1398,INV1398,2024-04-10,S017,PureSpace Cleaning,Facilities,HVAC,Procurement,Northeast,9927.15,Paid,Yes,Missing,8,Leo,CC102
+P1399,INV1399,2024-03-06,S028,CoreOffice Depot,Office Supplies,Paper,Operations,East,7170.12,Paid,Yes,Available,8,John,CC111
+P1400,INV1400,2024-05-17,S011,TechCore Systems,IT,Laptops,Technology,Northeast,3648.25,Pending,Yes,Available,18,John,CC113
+P1401,INV1401,2024-12-12,S026,Nova Precision,Manufacturing,Consumables,Technology,West,22885.75,Paid,Yes,Available,19,Mark,CC112
+P1402,INV1402,2024-08-28,S018,NorthStar Office,Office Supplies,Paper,Engineering,South,793.23,Paid,Yes,Available,19,Mark,CC107
+P1403,INV1403,2024-05-08,S006,OfficePro,Office Supplies,Breakroom Supplies,Engineering,East,3044.26,Paid,No,Available,7,Leo,CC112
+P1404,INV1404,2024-05-19,S009,Apex Industrial,Manufacturing,Maintenance Kits,Engineering,Northeast,6276.3,Paid,Yes,Available,6,Nina,CC114
+P1405,INV1405,2024-10-14,S022,OmniTech Devices,IT,Accessories,Engineering,Northeast,19432.68,Paid,Yes,Available,15,Sara,CC110
+P1406,INV1406,2024-11-09,S017,PureSpace Cleaning,Facilities,HVAC,Finance,North,9411.33,Paid,Yes,Available,14,Ravi,CC115
+P1407,INV1407,2024-03-13,S014,Vertex Tools,Manufacturing,Maintenance Kits,Facilities,South,13957.29,Pending,Yes,Available,16,Ravi,CC115
+P1408,INV1408,2024-01-13,S025,SafeGrid Security,IT,Servers,Finance,South,23327.79,Pending,Yes,Missing,28,Priya,CC115
+P1409,INV1409,2024-03-04,S008,GreenSource,Facilities,Repairs,Admin,North,415.41,Paid,No,Available,6,Emily,CC102
+P1410,INV1410,2024-03-21,S019,ForgeLine Parts,Manufacturing,Tools,Finance,East,39818.52,Overdue,No,Available,36,Emily,CC113
+P1411,INV1411,2024-03-21,S030,DataSphere Tech,IT,Security,Admin,East,18822.28,Paid,No,Missing,18,Sara,CC102
+P1412,INV1412,2024-09-20,S017,PureSpace Cleaning,Facilities,Cleaning,Finance,West,1742.27,Paid,Yes,Available,12,Emily,CC108
+P1413,INV1413,2024-04-16,S021,Velocity Cargo,Logistics,Ocean Freight,Operations,North,12524.38,Paid,No,Available,16,Ravi,CC106
+P1414,INV1414,2024-01-14,S006,OfficePro,Office Supplies,Printers,HR,Midwest,4052.22,Overdue,Yes,Available,40,Emily,CC114
+P1415,INV1415,2024-11-16,S028,CoreOffice Depot,Office Supplies,Stationery,Facilities,South,5739.84,Paid,Yes,Available,16,David,CC113
+P1416,INV1416,2024-12-17,S027,Peak Freight,Logistics,Shipping,HR,East,9419.17,Paid,Yes,Available,16,Ana,CC102
+P1417,INV1417,2024-03-22,S003,Prime Logistics,Logistics,Last Mile,HR,South,13886.73,Paid,No,Missing,11,Mark,CC103
+P1418,INV1418,2024-04-01,S010,BlueWave Freight,Logistics,Express Delivery,Technology,Midwest,30967.71,Paid,No,Available,19,Leo,CC104
+P1419,INV1419,2024-10-25,S024,Titan Fabrication,Manufacturing,Calibration,Supply Chain,South,9984.11,Paid,No,Available,20,Ravi,CC111
+P1420,INV1420,2024-05-24,S009,Apex Industrial,Manufacturing,Calibration,Operations,Northeast,16491.61,Paid,No,Available,13,Sara,CC113
+P1421,INV1421,2024-04-04,S030,DataSphere Tech,IT,Monitors,Facilities,Midwest,27754.14,Paid,No,Available,9,Emily,CC113
+P1422,INV1422,2024-04-24,S014,Vertex Tools,Manufacturing,Machine Parts,Operations,South,1580.88,Pending,Yes,Available,12,David,CC107
+P1423,INV1423,2024-04-21,S002,Delta Office,Office Supplies,Stationery,Technology,Northeast,6587.82,Pending,Yes,Available,24,Sara,CC110
+P1424,INV1424,2024-12-21,S022,OmniTech Devices,IT,Accessories,Operations,Northeast,21362.49,Paid,Yes,Available,19,Ravi,CC115
+P1425,INV1425,2024-10-16,S013,Metro Furnishings,Office Supplies,Printers,Operations,West,4926.75,Paid,Yes,Available,14,David,CC107
+P1426,INV1426,2024-11-26,S007,SecureNet,IT,Monitors,Facilities,Northeast,1898.24,Paid,No,Available,3,Ana,CC102
+P1427,INV1427,2024-07-20,S002,Delta Office,Office Supplies,Furniture,Admin,East,6929.69,Paid,Yes,Available,12,David,CC113
+P1428,INV1428,2024-03-14,S011,TechCore Systems,IT,Security,HR,East,21070.09,Paid,Yes,Missing,11,John,CC110
+P1429,INV1429,2024-07-26,S010,BlueWave Freight,Logistics,Warehousing,Technology,West,21747.76,Pending,Yes,Available,12,Emily,CC106
+P1430,INV1430,2024-05-03,S003,Prime Logistics,Logistics,Ocean Freight,Supply Chain,North,19406.93,Paid,Yes,Available,6,David,CC113
+P1431,INV1431,2024-11-11,S010,BlueWave Freight,Logistics,Express Delivery,Supply Chain,East,26619.11,Paid,Yes,Available,8,Sara,CC111
+P1432,INV1432,2024-02-23,S007,SecureNet,IT,Cloud Services,Technology,East,25137.55,Paid,Yes,Available,15,Emily,CC109
+P1433,INV1433,2024-01-09,S011,TechCore Systems,IT,Networking,Engineering,Northeast,23031.08,Paid,Yes,Available,16,Sara,CC115
+P1434,INV1434,2024-12-25,S026,Nova Precision,Manufacturing,Machine Parts,Technology,East,3675.31,Paid,Yes,Available,7,Priya,CC114
+P1435,INV1435,2024-07-21,S025,SafeGrid Security,IT,Servers,Procurement,North,17771.61,Paid,Yes,Available,11,Sara,CC101
+P1436,INV1436,2024-02-23,S005,NextGen Components,Manufacturing,Consumables,Engineering,South,3371.71,Paid,Yes,Available,11,Emily,CC101
+P1437,INV1437,2024-07-24,S012,EverBright Utilities,Facilities,HVAC,Engineering,Midwest,5400.37,Paid,Yes,Available,9,Priya,CC105
+P1438,INV1438,2024-04-07,S029,FacilityOne Services,Facilities,Utilities,Admin,North,6604.1,Paid,Yes,Available,19,Sara,CC104
+P1439,INV1439,2024-09-02,S024,Titan Fabrication,Manufacturing,Maintenance Kits,Technology,West,31785.51,Pending,Yes,Missing,29,Ana,CC106
+P1440,INV1440,2024-09-09,S015,RapidRoute Shipping,Logistics,Ocean Freight,HR,North,34782.67,Paid,Yes,Available,13,David,CC114
+P1441,INV1441,2024-07-17,S007,SecureNet,IT,Monitors,Admin,North,19645.7,Paid,Yes,Missing,16,John,CC110
+P1442,INV1442,2024-01-18,S005,NextGen Components,Manufacturing,Consumables,Supply Chain,West,37518.63,Paid,Yes,Missing,17,Emily,CC115
+P1443,INV1443,2024-03-19,S004,FastClean Services,Facilities,HVAC,Operations,East,3600.36,Paid,Yes,Available,9,Priya,CC113
+P1444,INV1444,2024-05-06,S011,TechCore Systems,IT,Accessories,Engineering,West,22308.74,Paid,Yes,Missing,9,Mark,CC108
+P1445,INV1445,2024-09-05,S001,ABC Supplies,IT,Security,Technology,South,7534.02,Paid,Yes,Available,18,Ravi,CC103
+P1446,INV1446,2024-10-06,S021,Velocity Cargo,Logistics,Warehousing,Procurement,Northeast,21980.58,Paid,No,Missing,4,Nina,CC107
+P1447,INV1447,2024-04-14,S026,Nova Precision,Manufacturing,Maintenance Kits,Engineering,North,11728.03,Paid,No,Available,3,David,CC102
+P1448,INV1448,2024-09-20,S024,Titan Fabrication,Manufacturing,Packaging,Operations,Northeast,11278.52,Overdue,Yes,Available,36,Leo,CC115
+P1449,INV1449,2024-08-13,S007,SecureNet,IT,Security,Operations,Northeast,9048.35,Paid,Yes,Available,19,Emily,CC106
+P1450,INV1450,2024-10-29,S015,RapidRoute Shipping,Logistics,Shipping,Operations,South,25580.55,Pending,Yes,Missing,23,Priya,CC101
+P1451,INV1451,2024-12-01,S006,OfficePro,Office Supplies,Stationery,Facilities,Northeast,1711.67,Pending,Yes,Available,12,Sara,CC111
+P1452,INV1452,2024-03-04,S010,BlueWave Freight,Logistics,Express Delivery,Supply Chain,East,15009.55,Pending,No,Missing,29,Priya,CC104
+P1453,INV1453,2024-07-14,S016,CloudAxis Software,IT,Monitors,Technology,Midwest,13182.67,Pending,Yes,Available,23,Sara,CC115
+P1454,INV1454,2024-06-14,S028,CoreOffice Depot,Office Supplies,Stationery,Admin,Northeast,1364.26,Overdue,Yes,Available,34,Nina,CC103
+P1455,INV1455,2024-10-26,S004,FastClean Services,Facilities,HVAC,Technology,North,2734.44,Paid,Yes,Available,15,David,CC114
+P1456,INV1456,2024-05-26,S010,BlueWave Freight,Logistics,Express Delivery,Technology,North,23203.69,Pending,Yes,Available,24,Emily,CC101
+P1457,INV1457,2024-07-03,S006,OfficePro,Office Supplies,Furniture,Finance,Midwest,6301.51,Paid,Yes,Available,20,Sara,CC115
+P1458,INV1458,2024-03-07,S009,Apex Industrial,Manufacturing,Calibration,HR,West,21647.33,Paid,Yes,Missing,17,Priya,CC111
+P1459,INV1459,2024-06-01,S005,NextGen Components,Manufacturing,Machine Parts,Technology,East,912.66,Paid,Yes,Available,11,Priya,CC105
+P1460,INV1460,2024-11-23,S003,Prime Logistics,Logistics,Freight,Operations,West,8440.24,Paid,No,Available,9,Ravi,CC108
+P1461,INV1461,2024-08-19,S012,EverBright Utilities,Facilities,HVAC,Facilities,Midwest,13009.69,Paid,Yes,Available,10,Leo,CC115
+P1462,INV1462,2024-10-26,S012,EverBright Utilities,Facilities,Maintenance,Operations,West,9294.01,Paid,Yes,Available,8,Nina,CC111
+P1463,INV1463,2024-05-02,S023,PaperTrail Office,Office Supplies,Printers,Supply Chain,Midwest,7772.12,Pending,No,Available,25,David,CC113
+P1464,INV1464,2024-01-04,S023,PaperTrail Office,Office Supplies,Furniture,Finance,East,6567.02,Paid,Yes,Available,17,Leo,CC105
+P1465,INV1465,2024-05-18,S005,NextGen Components,Manufacturing,Tools,HR,Midwest,24616.92,Pending,Yes,Available,27,Ana,CC109
+P1466,INV1466,2024-03-17,S020,EcoMaintain,Facilities,Maintenance,Admin,East,11961.66,Paid,Yes,Available,14,Emily,CC104
+P1467,INV1467,2024-03-02,S026,Nova Precision,Manufacturing,Calibration,Supply Chain,Midwest,20585.9,Pending,Yes,Available,12,John,CC105
+P1468,INV1468,2024-04-25,S005,NextGen Components,Manufacturing,Machine Parts,Operations,East,33353.84,Paid,Yes,Available,13,Sara,CC105
+P1469,INV1469,2024-07-21,S028,CoreOffice Depot,Office Supplies,Stationery,HR,South,6926.68,Paid,Yes,Available,17,Leo,CC109
+P1470,INV1470,2024-10-13,S027,Peak Freight,Logistics,Shipping,Facilities,Northeast,19094.07,Paid,Yes,Available,7,Nina,CC105
+P1471,INV1471,2024-10-26,S005,NextGen Components,Manufacturing,Machine Parts,Engineering,South,24561.42,Paid,Yes,Available,12,Ana,CC113
+P1472,INV1472,2024-08-01,S019,ForgeLine Parts,Manufacturing,Packaging,Finance,North,1598.61,Paid,No,Available,3,Ravi,CC108
+P1473,INV1473,2024-10-14,S021,Velocity Cargo,Logistics,Express Delivery,Operations,South,25500.61,Pending,Yes,Missing,22,David,CC111
+P1474,INV1474,2024-01-20,S023,PaperTrail Office,Office Supplies,Breakroom Supplies,Procurement,North,7616.96,Paid,Yes,Missing,15,Leo,CC105
+P1475,INV1475,2024-01-02,S030,DataSphere Tech,IT,Security,Supply Chain,East,9082.43,Pending,Yes,Available,36,Emily,CC109
+P1476,INV1476,2024-09-07,S026,Nova Precision,Manufacturing,Consumables,Admin,East,28500.6,Pending,Yes,Available,24,John,CC111
+P1477,INV1477,2024-10-20,S008,GreenSource,Facilities,Safety Supplies,Technology,North,6236.83,Paid,No,Available,5,Ravi,CC113
+P1478,INV1478,2024-06-10,S019,ForgeLine Parts,Manufacturing,Packaging,Admin,Midwest,2054.48,Paid,Yes,Available,6,Nina,CC105
+P1479,INV1479,2024-03-24,S028,CoreOffice Depot,Office Supplies,Breakroom Supplies,Finance,Northeast,5253.44,Paid,Yes,Available,10,Sara,CC107
+P1480,INV1480,2024-05-04,S025,SafeGrid Security,IT,Security,Procurement,Midwest,14585.09,Paid,Yes,Available,9,Ana,CC107
