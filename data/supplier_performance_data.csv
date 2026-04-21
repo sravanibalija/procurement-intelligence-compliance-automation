@@ -1,1 +1,31 @@
-
+Supplier_ID,Supplier_Name,Orders_Total,Orders_On_Time,Late_Deliveries,Defect_Count,Units_Received,Avg_Lead_Time_Days,Contract_Active,Risk_Level,Supplier_Region,Supplier_Category
+S001,ABC Supplies,83,76,7,7,1087,3.9,Yes,Low,West,IT
+S002,Delta Office,79,73,6,5,875,6.9,Yes,Low,South,Office Supplies
+S003,Prime Logistics,110,75,35,32,874,11.7,No,High,East,Logistics
+S004,FastClean Services,181,173,8,10,1199,3.8,Yes,Low,North,Facilities
+S005,NextGen Components,150,134,16,11,404,6.5,Yes,Medium,West,Manufacturing
+S006,OfficePro,106,96,10,2,321,5.2,Yes,Low,South,Office Supplies
+S007,SecureNet,192,136,56,30,1157,12.2,Yes,High,West,IT
+S008,GreenSource,193,162,31,20,923,9.1,Yes,Medium,North,Facilities
+S009,Apex Industrial,150,123,27,24,1087,8.4,Yes,Medium,Midwest,Manufacturing
+S010,BlueWave Freight,207,160,47,45,982,17.0,Yes,High,East,Logistics
+S011,TechCore Systems,177,152,25,8,332,9.5,Yes,Medium,West,IT
+S012,EverBright Utilities,91,88,3,4,973,4.8,Yes,Low,South,Facilities
+S013,Metro Furnishings,211,196,15,3,375,5.1,Yes,Low,Northeast,Office Supplies
+S014,Vertex Tools,156,128,28,10,900,9.5,Yes,Medium,Midwest,Manufacturing
+S015,RapidRoute Shipping,73,60,13,21,534,14.0,Yes,High,South,Logistics
+S016,CloudAxis Software,85,75,10,22,806,9.5,Yes,Medium,West,IT
+S017,PureSpace Cleaning,129,121,8,2,481,5.6,Yes,Low,North,Facilities
+S018,NorthStar Office,166,158,8,1,345,5.3,Yes,Low,Northeast,Office Supplies
+S019,ForgeLine Parts,75,53,22,32,660,18.1,Yes,High,Midwest,Manufacturing
+S020,EcoMaintain,70,58,12,7,364,9.9,Yes,Medium,West,Facilities
+S021,Velocity Cargo,91,67,24,16,308,12.9,Yes,High,East,Logistics
+S022,OmniTech Devices,173,156,17,3,630,5.4,Yes,Low,West,IT
+S023,PaperTrail Office,213,197,16,1,656,6.0,Yes,Low,South,Office Supplies
+S024,Titan Fabrication,111,91,20,20,729,17.3,No,High,Midwest,Manufacturing
+S025,SafeGrid Security,130,116,14,30,1144,6.3,Yes,Medium,West,IT
+S026,Nova Precision,202,173,29,8,613,9.6,Yes,Medium,West,Manufacturing
+S027,Peak Freight,144,129,15,12,698,8.9,Yes,Medium,Northeast,Logistics
+S028,CoreOffice Depot,156,146,10,3,944,5.9,Yes,Low,Midwest,Office Supplies
+S029,FacilityOne Services,180,149,31,8,439,6.1,Yes,Medium,South,Facilities
+S030,DataSphere Tech,185,151,34,53,1057,15.9,Yes,High,Northeast,IT
