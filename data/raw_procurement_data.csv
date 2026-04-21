@@ -1,11 +1,1 @@
-Purchase_ID,Invoice_ID,Invoice_Date,Supplier_ID,Supplier_Name,Category,Subcategory,Department,Region,Amount,Payment_Status,Contract_Compliance,PO_Status,Invoice_Processing_Days,Buyer_Name,Cost_Center
-P1001,INV001,2024-01-05,S001,ABC Supplies,IT,Laptops,Technology,West,1200,Paid,Yes,Available,8,John,CC101
-P1002,INV002,2024-01-10,S002,Delta Office,Office Supplies,Stationery,HR,South,350,Paid,Yes,Available,5,Ana,CC102
-P1003,INV003,2024-01-15,S003,Prime Logistics,Logistics,Shipping,Operations,East,22000,Pending,No,Missing,35,Mark,CC103
-P1004,INV004,2024-02-03,S001,ABC Supplies,IT,Monitors,Technology,West,900,Paid,Yes,Available,7,John,CC101
-P1005,INV005,2024-02-10,S004,FastClean Services,Facilities,Cleaning,Admin,North,1500,Paid,Yes,Available,6,Sara,CC104
-P1006,INV006,2024-02-14,S005,NextGen Components,Manufacturing,Tools,Operations,West,8400,Paid,Yes,Available,9,Ravi,CC105
-P1007,INV007,2024-03-01,S003,Prime Logistics,Logistics,Freight,Operations,East,18500,Pending,No,Missing,32,Mark,CC103
-P1008,INV008,2024-03-05,S006,OfficePro,Office Supplies,Furniture,Admin,South,2600,Paid,Yes,Available,10,Sara,CC104
-P1009,INV009,2024-03-11,S007,SecureNet,IT,Software,Technology,West,12000,Paid,No,Missing,28,John,CC101
-P1010,INV010,2024-03-18,S008,GreenSource,Facilities,Maintenance,Admin,North,4300,Paid,Yes,Available,12,Ana,CC106
+
